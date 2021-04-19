@@ -1,0 +1,4585 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A1 33110 23386
+encoding utf-8
+Sheet 1 3
+Title "Fullsize Keyboard"
+Date "2021-04-19"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text GLabel 900  1400 0    50   Input ~ 0
+row0
+Text GLabel 1800 650  0    50   Input ~ 0
+col0
+Text GLabel 2800 650  0    50   Input ~ 0
+col1
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_0
+U 1 1 00000001
+P 2400 1000
+F 0 "K_0" H 2400 1233 60  0000 C CNN
+F 1 "KEYSW" H 2400 900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 2400 1000 60  0001 C CNN
+F 3 "" H 2400 1000 60  0000 C CNN
+	1    2400 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_0
+U 1 1 00000000
+P 2350 1300
+F 0 "D_0" V 2420 1200 50  0000 R CNN
+F 1 "D" V 2330 1200 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 2050 1250 50  0001 C CNN
+F 3 "" H 2050 1250 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 2350 1300 50  0001 C CNN "Description"
+F 5 "C81598" H 2350 1300 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 2350 1300 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 2350 1300 50  0001 C CNN "Manufacturer PN"
+	1    2350 1300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2550 950  2800 950 
+Wire Wire Line
+	2350 1150 2350 1200
+Connection ~ 2800 950 
+Text GLabel 3800 650  0    50   Input ~ 0
+col2
+Text GLabel 4800 650  0    50   Input ~ 0
+col3
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_1
+U 1 1 00000011
+P 4400 1000
+F 0 "K_1" H 4400 1233 60  0000 C CNN
+F 1 "KEYSW" H 4400 900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 4400 1000 60  0001 C CNN
+F 3 "" H 4400 1000 60  0000 C CNN
+	1    4400 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_1
+U 1 1 00000010
+P 4350 1300
+F 0 "D_1" V 4420 1200 50  0000 R CNN
+F 1 "D" V 4330 1200 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 4050 1250 50  0001 C CNN
+F 3 "" H 4050 1250 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 4350 1300 50  0001 C CNN "Description"
+F 5 "C81598" H 4350 1300 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 4350 1300 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 4350 1300 50  0001 C CNN "Manufacturer PN"
+	1    4350 1300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4550 950  4800 950 
+Wire Wire Line
+	4350 1150 4350 1200
+Connection ~ 4800 950 
+Text GLabel 5800 650  0    50   Input ~ 0
+col4
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_2
+U 1 1 00000021
+P 5400 1000
+F 0 "K_2" H 5400 1233 60  0000 C CNN
+F 1 "KEYSW" H 5400 900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 5400 1000 60  0001 C CNN
+F 3 "" H 5400 1000 60  0000 C CNN
+	1    5400 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_2
+U 1 1 00000020
+P 5350 1300
+F 0 "D_2" V 5420 1200 50  0000 R CNN
+F 1 "D" V 5330 1200 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 5050 1250 50  0001 C CNN
+F 3 "" H 5050 1250 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 5350 1300 50  0001 C CNN "Description"
+F 5 "C81598" H 5350 1300 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 5350 1300 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 5350 1300 50  0001 C CNN "Manufacturer PN"
+	1    5350 1300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5550 950  5800 950 
+Wire Wire Line
+	5350 1150 5350 1200
+Connection ~ 5800 950 
+Text GLabel 6800 650  0    50   Input ~ 0
+col5
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_3
+U 1 1 00000031
+P 6400 1000
+F 0 "K_3" H 6400 1233 60  0000 C CNN
+F 1 "KEYSW" H 6400 900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 6400 1000 60  0001 C CNN
+F 3 "" H 6400 1000 60  0000 C CNN
+	1    6400 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_3
+U 1 1 00000030
+P 6350 1300
+F 0 "D_3" V 6420 1200 50  0000 R CNN
+F 1 "D" V 6330 1200 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 6050 1250 50  0001 C CNN
+F 3 "" H 6050 1250 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 6350 1300 50  0001 C CNN "Description"
+F 5 "C81598" H 6350 1300 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 6350 1300 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 6350 1300 50  0001 C CNN "Manufacturer PN"
+	1    6350 1300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6550 950  6800 950 
+Wire Wire Line
+	6350 1150 6350 1200
+Connection ~ 6800 950 
+Text GLabel 7800 650  0    50   Input ~ 0
+col6
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_4
+U 1 1 00000041
+P 7400 1000
+F 0 "K_4" H 7400 1233 60  0000 C CNN
+F 1 "KEYSW" H 7400 900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 7400 1000 60  0001 C CNN
+F 3 "" H 7400 1000 60  0000 C CNN
+	1    7400 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_4
+U 1 1 00000040
+P 7350 1300
+F 0 "D_4" V 7420 1200 50  0000 R CNN
+F 1 "D" V 7330 1200 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 7050 1250 50  0001 C CNN
+F 3 "" H 7050 1250 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 7350 1300 50  0001 C CNN "Description"
+F 5 "C81598" H 7350 1300 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 7350 1300 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 7350 1300 50  0001 C CNN "Manufacturer PN"
+	1    7350 1300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7550 950  7800 950 
+Wire Wire Line
+	7350 1150 7350 1200
+Connection ~ 7800 950 
+Text GLabel 8800 650  0    50   Input ~ 0
+col7
+Text GLabel 9800 650  0    50   Input ~ 0
+col8
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_5
+U 1 1 00000051
+P 9400 1000
+F 0 "K_5" H 9400 1233 60  0000 C CNN
+F 1 "KEYSW" H 9400 900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 9400 1000 60  0001 C CNN
+F 3 "" H 9400 1000 60  0000 C CNN
+	1    9400 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_5
+U 1 1 00000050
+P 9350 1300
+F 0 "D_5" V 9420 1200 50  0000 R CNN
+F 1 "D" V 9330 1200 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 9050 1250 50  0001 C CNN
+F 3 "" H 9050 1250 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 9350 1300 50  0001 C CNN "Description"
+F 5 "C81598" H 9350 1300 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 9350 1300 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 9350 1300 50  0001 C CNN "Manufacturer PN"
+	1    9350 1300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9550 950  9800 950 
+Wire Wire Line
+	9350 1150 9350 1200
+Connection ~ 9800 950 
+Text GLabel 10800 650  0    50   Input ~ 0
+col9
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_6
+U 1 1 00000061
+P 10400 1000
+F 0 "K_6" H 10400 1233 60  0000 C CNN
+F 1 "KEYSW" H 10400 900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 10400 1000 60  0001 C CNN
+F 3 "" H 10400 1000 60  0000 C CNN
+	1    10400 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_6
+U 1 1 00000060
+P 10350 1300
+F 0 "D_6" V 10420 1200 50  0000 R CNN
+F 1 "D" V 10330 1200 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 10050 1250 50  0001 C CNN
+F 3 "" H 10050 1250 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 10350 1300 50  0001 C CNN "Description"
+F 5 "C81598" H 10350 1300 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 10350 1300 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 10350 1300 50  0001 C CNN "Manufacturer PN"
+	1    10350 1300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10550 950  10800 950 
+Wire Wire Line
+	10350 1150 10350 1200
+Connection ~ 10800 950 
+Text GLabel 11800 650  0    50   Input ~ 0
+col10
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_7
+U 1 1 00000071
+P 11400 1000
+F 0 "K_7" H 11400 1233 60  0000 C CNN
+F 1 "KEYSW" H 11400 900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 11400 1000 60  0001 C CNN
+F 3 "" H 11400 1000 60  0000 C CNN
+	1    11400 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_7
+U 1 1 00000070
+P 11350 1300
+F 0 "D_7" V 11420 1200 50  0000 R CNN
+F 1 "D" V 11330 1200 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 11050 1250 50  0001 C CNN
+F 3 "" H 11050 1250 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 11350 1300 50  0001 C CNN "Description"
+F 5 "C81598" H 11350 1300 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 11350 1300 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 11350 1300 50  0001 C CNN "Manufacturer PN"
+	1    11350 1300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11550 950  11800 950 
+Wire Wire Line
+	11350 1150 11350 1200
+Connection ~ 11800 950 
+Text GLabel 12800 650  0    50   Input ~ 0
+col11
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_8
+U 1 1 00000081
+P 12400 1000
+F 0 "K_8" H 12400 1233 60  0000 C CNN
+F 1 "KEYSW" H 12400 900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 12400 1000 60  0001 C CNN
+F 3 "" H 12400 1000 60  0000 C CNN
+	1    12400 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_8
+U 1 1 00000080
+P 12350 1300
+F 0 "D_8" V 12420 1200 50  0000 R CNN
+F 1 "D" V 12330 1200 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 12050 1250 50  0001 C CNN
+F 3 "" H 12050 1250 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 12350 1300 50  0001 C CNN "Description"
+F 5 "C81598" H 12350 1300 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 12350 1300 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 12350 1300 50  0001 C CNN "Manufacturer PN"
+	1    12350 1300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12550 950  12800 950 
+Wire Wire Line
+	12350 1150 12350 1200
+Connection ~ 12800 950 
+Text GLabel 13800 650  0    50   Input ~ 0
+col12
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_9
+U 1 1 00000091
+P 13400 1000
+F 0 "K_9" H 13400 1233 60  0000 C CNN
+F 1 "KEYSW" H 13400 900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 13400 1000 60  0001 C CNN
+F 3 "" H 13400 1000 60  0000 C CNN
+	1    13400 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_9
+U 1 1 00000090
+P 13350 1300
+F 0 "D_9" V 13420 1200 50  0000 R CNN
+F 1 "D" V 13330 1200 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 13050 1250 50  0001 C CNN
+F 3 "" H 13050 1250 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 13350 1300 50  0001 C CNN "Description"
+F 5 "C81598" H 13350 1300 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 13350 1300 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 13350 1300 50  0001 C CNN "Manufacturer PN"
+	1    13350 1300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13550 950  13800 950 
+Wire Wire Line
+	13350 1150 13350 1200
+Connection ~ 13800 950 
+Text GLabel 14800 650  0    50   Input ~ 0
+col13
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_10
+U 1 1 00000101
+P 14400 1000
+F 0 "K_10" H 14400 1233 60  0000 C CNN
+F 1 "KEYSW" H 14400 900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 14400 1000 60  0001 C CNN
+F 3 "" H 14400 1000 60  0000 C CNN
+	1    14400 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_10
+U 1 1 00000100
+P 14350 1300
+F 0 "D_10" V 14420 1200 50  0000 R CNN
+F 1 "D" V 14330 1200 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 14050 1250 50  0001 C CNN
+F 3 "" H 14050 1250 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 14350 1300 50  0001 C CNN "Description"
+F 5 "C81598" H 14350 1300 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 14350 1300 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 14350 1300 50  0001 C CNN "Manufacturer PN"
+	1    14350 1300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	14550 950  14800 950 
+Wire Wire Line
+	14350 1150 14350 1200
+Connection ~ 14800 950 
+Text GLabel 15800 650  0    50   Input ~ 0
+col14
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_11
+U 1 1 00000111
+P 15400 1000
+F 0 "K_11" H 15400 1233 60  0000 C CNN
+F 1 "KEYSW" H 15400 900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 15400 1000 60  0001 C CNN
+F 3 "" H 15400 1000 60  0000 C CNN
+	1    15400 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_11
+U 1 1 00000110
+P 15350 1300
+F 0 "D_11" V 15420 1200 50  0000 R CNN
+F 1 "D" V 15330 1200 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 15050 1250 50  0001 C CNN
+F 3 "" H 15050 1250 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 15350 1300 50  0001 C CNN "Description"
+F 5 "C81598" H 15350 1300 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 15350 1300 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 15350 1300 50  0001 C CNN "Manufacturer PN"
+	1    15350 1300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	15550 950  15800 950 
+Wire Wire Line
+	15350 1150 15350 1200
+Connection ~ 15800 950 
+Text GLabel 16800 650  0    50   Input ~ 0
+col15
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_12
+U 1 1 00000121
+P 16400 1000
+F 0 "K_12" H 16400 1233 60  0000 C CNN
+F 1 "KEYSW" H 16400 900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 16400 1000 60  0001 C CNN
+F 3 "" H 16400 1000 60  0000 C CNN
+	1    16400 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_12
+U 1 1 00000120
+P 16350 1300
+F 0 "D_12" V 16420 1200 50  0000 R CNN
+F 1 "D" V 16330 1200 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 16050 1250 50  0001 C CNN
+F 3 "" H 16050 1250 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 16350 1300 50  0001 C CNN "Description"
+F 5 "C81598" H 16350 1300 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 16350 1300 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 16350 1300 50  0001 C CNN "Manufacturer PN"
+	1    16350 1300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	16550 950  16800 950 
+Wire Wire Line
+	16350 1150 16350 1200
+Connection ~ 16800 950 
+Text GLabel 17750 650  0    50   Input ~ 0
+col16
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_13
+U 1 1 00000131
+P 17350 1000
+F 0 "K_13" H 17350 1233 60  0000 C CNN
+F 1 "KEYSW" H 17350 900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 17350 1000 60  0001 C CNN
+F 3 "" H 17350 1000 60  0000 C CNN
+	1    17350 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_13
+U 1 1 00000130
+P 17300 1300
+F 0 "D_13" V 17370 1200 50  0000 R CNN
+F 1 "D" V 17280 1200 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 17000 1250 50  0001 C CNN
+F 3 "" H 17000 1250 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 17300 1300 50  0001 C CNN "Description"
+F 5 "C81598" H 17300 1300 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 17300 1300 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 17300 1300 50  0001 C CNN "Manufacturer PN"
+	1    17300 1300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	17500 950  17750 950 
+Wire Wire Line
+	17300 1150 17300 1200
+Connection ~ 17750 950 
+Text GLabel 18750 650  0    50   Input ~ 0
+col17
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_14
+U 1 1 00000141
+P 18350 1000
+F 0 "K_14" H 18350 1233 60  0000 C CNN
+F 1 "KEYSW" H 18350 900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 18350 1000 60  0001 C CNN
+F 3 "" H 18350 1000 60  0000 C CNN
+	1    18350 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_14
+U 1 1 00000140
+P 18300 1300
+F 0 "D_14" V 18370 1200 50  0000 R CNN
+F 1 "D" V 18280 1200 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 18000 1250 50  0001 C CNN
+F 3 "" H 18000 1250 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 18300 1300 50  0001 C CNN "Description"
+F 5 "C81598" H 18300 1300 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 18300 1300 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 18300 1300 50  0001 C CNN "Manufacturer PN"
+	1    18300 1300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	18500 950  18750 950 
+Wire Wire Line
+	18300 1150 18300 1200
+Connection ~ 18750 950 
+Text GLabel 19750 650  0    50   Input ~ 0
+col18
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_15
+U 1 1 00000151
+P 19350 1000
+F 0 "K_15" H 19350 1233 60  0000 C CNN
+F 1 "KEYSW" H 19350 900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 19350 1000 60  0001 C CNN
+F 3 "" H 19350 1000 60  0000 C CNN
+	1    19350 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_15
+U 1 1 00000150
+P 19300 1300
+F 0 "D_15" V 19370 1200 50  0000 R CNN
+F 1 "D" V 19280 1200 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 19000 1250 50  0001 C CNN
+F 3 "" H 19000 1250 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 19300 1300 50  0001 C CNN "Description"
+F 5 "C81598" H 19300 1300 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 19300 1300 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 19300 1300 50  0001 C CNN "Manufacturer PN"
+	1    19300 1300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	19500 950  19750 950 
+Wire Wire Line
+	19300 1150 19300 1200
+Connection ~ 19750 950 
+Text GLabel 20750 650  0    50   Input ~ 0
+col19
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_16
+U 1 1 00000161
+P 20350 1000
+F 0 "K_16" H 20350 1233 60  0000 C CNN
+F 1 "KEYSW" H 20350 900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 20350 1000 60  0001 C CNN
+F 3 "" H 20350 1000 60  0000 C CNN
+	1    20350 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_16
+U 1 1 00000160
+P 20300 1300
+F 0 "D_16" V 20370 1200 50  0000 R CNN
+F 1 "D" V 20280 1200 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 20000 1250 50  0001 C CNN
+F 3 "" H 20000 1250 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 20300 1300 50  0001 C CNN "Description"
+F 5 "C81598" H 20300 1300 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 20300 1300 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 20300 1300 50  0001 C CNN "Manufacturer PN"
+	1    20300 1300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	20500 950  20750 950 
+Wire Wire Line
+	20300 1150 20300 1200
+Connection ~ 20750 950 
+Text GLabel 21750 650  0    50   Input ~ 0
+col20
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_17
+U 1 1 00000171
+P 21350 1000
+F 0 "K_17" H 21350 1233 60  0000 C CNN
+F 1 "KEYSW" H 21350 900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 21350 1000 60  0001 C CNN
+F 3 "" H 21350 1000 60  0000 C CNN
+	1    21350 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_17
+U 1 1 00000170
+P 21300 1300
+F 0 "D_17" V 21370 1200 50  0000 R CNN
+F 1 "D" V 21280 1200 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 21000 1250 50  0001 C CNN
+F 3 "" H 21000 1250 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 21300 1300 50  0001 C CNN "Description"
+F 5 "C81598" H 21300 1300 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 21300 1300 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 21300 1300 50  0001 C CNN "Manufacturer PN"
+	1    21300 1300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	21500 950  21750 950 
+Wire Wire Line
+	21300 1150 21300 1200
+Connection ~ 21750 950 
+Text GLabel 22750 650  0    50   Input ~ 0
+col21
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_18
+U 1 1 00000181
+P 22350 1000
+F 0 "K_18" H 22350 1233 60  0000 C CNN
+F 1 "KEYSW" H 22350 900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 22350 1000 60  0001 C CNN
+F 3 "" H 22350 1000 60  0000 C CNN
+	1    22350 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_18
+U 1 1 00000180
+P 22300 1300
+F 0 "D_18" V 22370 1200 50  0000 R CNN
+F 1 "D" V 22280 1200 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 22000 1250 50  0001 C CNN
+F 3 "" H 22000 1250 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 22300 1300 50  0001 C CNN "Description"
+F 5 "C81598" H 22300 1300 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 22300 1300 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 22300 1300 50  0001 C CNN "Manufacturer PN"
+	1    22300 1300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	22500 950  22750 950 
+Wire Wire Line
+	22300 1150 22300 1200
+Connection ~ 22750 950 
+Text GLabel 23750 650  0    50   Input ~ 0
+col22
+Text GLabel 900  2350 0    50   Input ~ 0
+row1
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_19
+U 1 1 00000191
+P 1400 1950
+F 0 "K_19" H 1400 2183 60  0000 C CNN
+F 1 "KEYSW" H 1400 1850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 1400 1950 60  0001 C CNN
+F 3 "" H 1400 1950 60  0000 C CNN
+	1    1400 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_19
+U 1 1 00000190
+P 1350 2250
+F 0 "D_19" V 1420 2150 50  0000 R CNN
+F 1 "D" V 1330 2150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 1050 2200 50  0001 C CNN
+F 3 "" H 1050 2200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 1350 2250 50  0001 C CNN "Description"
+F 5 "C81598" H 1350 2250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 1350 2250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 1350 2250 50  0001 C CNN "Manufacturer PN"
+	1    1350 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1550 1900 1800 1900
+Wire Wire Line
+	1350 2100 1350 2150
+Connection ~ 1800 1900
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_20
+U 1 1 00000201
+P 2400 1950
+F 0 "K_20" H 2400 2183 60  0000 C CNN
+F 1 "KEYSW" H 2400 1850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 2400 1950 60  0001 C CNN
+F 3 "" H 2400 1950 60  0000 C CNN
+	1    2400 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_20
+U 1 1 00000200
+P 2350 2250
+F 0 "D_20" V 2420 2150 50  0000 R CNN
+F 1 "D" V 2330 2150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 2050 2200 50  0001 C CNN
+F 3 "" H 2050 2200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 2350 2250 50  0001 C CNN "Description"
+F 5 "C81598" H 2350 2250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 2350 2250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 2350 2250 50  0001 C CNN "Manufacturer PN"
+	1    2350 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2550 1900 2800 1900
+Wire Wire Line
+	2350 2100 2350 2150
+Connection ~ 2800 1900
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_21
+U 1 1 00000211
+P 3400 1950
+F 0 "K_21" H 3400 2183 60  0000 C CNN
+F 1 "KEYSW" H 3400 1850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 3400 1950 60  0001 C CNN
+F 3 "" H 3400 1950 60  0000 C CNN
+	1    3400 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_21
+U 1 1 00000210
+P 3350 2250
+F 0 "D_21" V 3420 2150 50  0000 R CNN
+F 1 "D" V 3330 2150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 3050 2200 50  0001 C CNN
+F 3 "" H 3050 2200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 3350 2250 50  0001 C CNN "Description"
+F 5 "C81598" H 3350 2250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 3350 2250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 3350 2250 50  0001 C CNN "Manufacturer PN"
+	1    3350 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3550 1900 3800 1900
+Wire Wire Line
+	3350 2100 3350 2150
+Connection ~ 3800 1900
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_22
+U 1 1 00000221
+P 4400 1950
+F 0 "K_22" H 4400 2183 60  0000 C CNN
+F 1 "KEYSW" H 4400 1850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 4400 1950 60  0001 C CNN
+F 3 "" H 4400 1950 60  0000 C CNN
+	1    4400 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_22
+U 1 1 00000220
+P 4350 2250
+F 0 "D_22" V 4420 2150 50  0000 R CNN
+F 1 "D" V 4330 2150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 4050 2200 50  0001 C CNN
+F 3 "" H 4050 2200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 4350 2250 50  0001 C CNN "Description"
+F 5 "C81598" H 4350 2250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 4350 2250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 4350 2250 50  0001 C CNN "Manufacturer PN"
+	1    4350 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4550 1900 4800 1900
+Wire Wire Line
+	4350 2100 4350 2150
+Connection ~ 4800 1900
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_23
+U 1 1 00000231
+P 5400 1950
+F 0 "K_23" H 5400 2183 60  0000 C CNN
+F 1 "KEYSW" H 5400 1850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 5400 1950 60  0001 C CNN
+F 3 "" H 5400 1950 60  0000 C CNN
+	1    5400 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_23
+U 1 1 00000230
+P 5350 2250
+F 0 "D_23" V 5420 2150 50  0000 R CNN
+F 1 "D" V 5330 2150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 5050 2200 50  0001 C CNN
+F 3 "" H 5050 2200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 5350 2250 50  0001 C CNN "Description"
+F 5 "C81598" H 5350 2250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 5350 2250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 5350 2250 50  0001 C CNN "Manufacturer PN"
+	1    5350 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5550 1900 5800 1900
+Wire Wire Line
+	5350 2100 5350 2150
+Connection ~ 5800 1900
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_24
+U 1 1 00000241
+P 6400 1950
+F 0 "K_24" H 6400 2183 60  0000 C CNN
+F 1 "KEYSW" H 6400 1850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 6400 1950 60  0001 C CNN
+F 3 "" H 6400 1950 60  0000 C CNN
+	1    6400 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_24
+U 1 1 00000240
+P 6350 2250
+F 0 "D_24" V 6420 2150 50  0000 R CNN
+F 1 "D" V 6330 2150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 6050 2200 50  0001 C CNN
+F 3 "" H 6050 2200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 6350 2250 50  0001 C CNN "Description"
+F 5 "C81598" H 6350 2250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 6350 2250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 6350 2250 50  0001 C CNN "Manufacturer PN"
+	1    6350 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6550 1900 6800 1900
+Wire Wire Line
+	6350 2100 6350 2150
+Connection ~ 6800 1900
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_25
+U 1 1 00000251
+P 7400 1950
+F 0 "K_25" H 7400 2183 60  0000 C CNN
+F 1 "KEYSW" H 7400 1850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 7400 1950 60  0001 C CNN
+F 3 "" H 7400 1950 60  0000 C CNN
+	1    7400 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_25
+U 1 1 00000250
+P 7350 2250
+F 0 "D_25" V 7420 2150 50  0000 R CNN
+F 1 "D" V 7330 2150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 7050 2200 50  0001 C CNN
+F 3 "" H 7050 2200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 7350 2250 50  0001 C CNN "Description"
+F 5 "C81598" H 7350 2250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 7350 2250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 7350 2250 50  0001 C CNN "Manufacturer PN"
+	1    7350 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7550 1900 7800 1900
+Wire Wire Line
+	7350 2100 7350 2150
+Connection ~ 7800 1900
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_26
+U 1 1 00000261
+P 8400 1950
+F 0 "K_26" H 8400 2183 60  0000 C CNN
+F 1 "KEYSW" H 8400 1850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 8400 1950 60  0001 C CNN
+F 3 "" H 8400 1950 60  0000 C CNN
+	1    8400 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_26
+U 1 1 00000260
+P 8350 2250
+F 0 "D_26" V 8420 2150 50  0000 R CNN
+F 1 "D" V 8330 2150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 8050 2200 50  0001 C CNN
+F 3 "" H 8050 2200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 8350 2250 50  0001 C CNN "Description"
+F 5 "C81598" H 8350 2250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 8350 2250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 8350 2250 50  0001 C CNN "Manufacturer PN"
+	1    8350 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8550 1900 8800 1900
+Wire Wire Line
+	8350 2100 8350 2150
+Connection ~ 8800 1900
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_27
+U 1 1 00000271
+P 9400 1950
+F 0 "K_27" H 9400 2183 60  0000 C CNN
+F 1 "KEYSW" H 9400 1850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 9400 1950 60  0001 C CNN
+F 3 "" H 9400 1950 60  0000 C CNN
+	1    9400 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_27
+U 1 1 00000270
+P 9350 2250
+F 0 "D_27" V 9420 2150 50  0000 R CNN
+F 1 "D" V 9330 2150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 9050 2200 50  0001 C CNN
+F 3 "" H 9050 2200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 9350 2250 50  0001 C CNN "Description"
+F 5 "C81598" H 9350 2250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 9350 2250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 9350 2250 50  0001 C CNN "Manufacturer PN"
+	1    9350 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9550 1900 9800 1900
+Wire Wire Line
+	9350 2100 9350 2150
+Connection ~ 9800 1900
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_28
+U 1 1 00000281
+P 10400 1950
+F 0 "K_28" H 10400 2183 60  0000 C CNN
+F 1 "KEYSW" H 10400 1850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 10400 1950 60  0001 C CNN
+F 3 "" H 10400 1950 60  0000 C CNN
+	1    10400 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_28
+U 1 1 00000280
+P 10350 2250
+F 0 "D_28" V 10420 2150 50  0000 R CNN
+F 1 "D" V 10330 2150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 10050 2200 50  0001 C CNN
+F 3 "" H 10050 2200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 10350 2250 50  0001 C CNN "Description"
+F 5 "C81598" H 10350 2250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 10350 2250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 10350 2250 50  0001 C CNN "Manufacturer PN"
+	1    10350 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10550 1900 10800 1900
+Wire Wire Line
+	10350 2100 10350 2150
+Connection ~ 10800 1900
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_29
+U 1 1 00000291
+P 11400 1950
+F 0 "K_29" H 11400 2183 60  0000 C CNN
+F 1 "KEYSW" H 11400 1850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 11400 1950 60  0001 C CNN
+F 3 "" H 11400 1950 60  0000 C CNN
+	1    11400 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_29
+U 1 1 00000290
+P 11350 2250
+F 0 "D_29" V 11420 2150 50  0000 R CNN
+F 1 "D" V 11330 2150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 11050 2200 50  0001 C CNN
+F 3 "" H 11050 2200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 11350 2250 50  0001 C CNN "Description"
+F 5 "C81598" H 11350 2250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 11350 2250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 11350 2250 50  0001 C CNN "Manufacturer PN"
+	1    11350 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11550 1900 11800 1900
+Wire Wire Line
+	11350 2100 11350 2150
+Connection ~ 11800 1900
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_30
+U 1 1 00000301
+P 12400 1950
+F 0 "K_30" H 12400 2183 60  0000 C CNN
+F 1 "KEYSW" H 12400 1850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 12400 1950 60  0001 C CNN
+F 3 "" H 12400 1950 60  0000 C CNN
+	1    12400 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_30
+U 1 1 00000300
+P 12350 2250
+F 0 "D_30" V 12420 2150 50  0000 R CNN
+F 1 "D" V 12330 2150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 12050 2200 50  0001 C CNN
+F 3 "" H 12050 2200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 12350 2250 50  0001 C CNN "Description"
+F 5 "C81598" H 12350 2250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 12350 2250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 12350 2250 50  0001 C CNN "Manufacturer PN"
+	1    12350 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12550 1900 12800 1900
+Wire Wire Line
+	12350 2100 12350 2150
+Connection ~ 12800 1900
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_31
+U 1 1 00000311
+P 13400 1950
+F 0 "K_31" H 13400 2183 60  0000 C CNN
+F 1 "KEYSW" H 13400 1850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 13400 1950 60  0001 C CNN
+F 3 "" H 13400 1950 60  0000 C CNN
+	1    13400 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_31
+U 1 1 00000310
+P 13350 2250
+F 0 "D_31" V 13420 2150 50  0000 R CNN
+F 1 "D" V 13330 2150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 13050 2200 50  0001 C CNN
+F 3 "" H 13050 2200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 13350 2250 50  0001 C CNN "Description"
+F 5 "C81598" H 13350 2250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 13350 2250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 13350 2250 50  0001 C CNN "Manufacturer PN"
+	1    13350 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13550 1900 13800 1900
+Wire Wire Line
+	13350 2100 13350 2150
+Connection ~ 13800 1900
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_32
+U 1 1 00000321
+P 14400 1950
+F 0 "K_32" H 14400 2183 60  0000 C CNN
+F 1 "KEYSW" H 14400 1850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 14400 1950 60  0001 C CNN
+F 3 "" H 14400 1950 60  0000 C CNN
+	1    14400 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_32
+U 1 1 00000320
+P 14350 2250
+F 0 "D_32" V 14420 2150 50  0000 R CNN
+F 1 "D" V 14330 2150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 14050 2200 50  0001 C CNN
+F 3 "" H 14050 2200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 14350 2250 50  0001 C CNN "Description"
+F 5 "C81598" H 14350 2250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 14350 2250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 14350 2250 50  0001 C CNN "Manufacturer PN"
+	1    14350 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	14550 1900 14800 1900
+Wire Wire Line
+	14350 2100 14350 2150
+Connection ~ 14800 1900
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_33
+U 1 1 00000331
+P 16400 1950
+F 0 "K_33" H 16400 2183 60  0000 C CNN
+F 1 "KEYSW" H 16400 1850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-2U-NoLED" H 16400 1950 60  0001 C CNN
+F 3 "" H 16400 1950 60  0000 C CNN
+	1    16400 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_33
+U 1 1 00000330
+P 16350 2250
+F 0 "D_33" V 16420 2150 50  0000 R CNN
+F 1 "D" V 16330 2150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 16050 2200 50  0001 C CNN
+F 3 "" H 16050 2200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 16350 2250 50  0001 C CNN "Description"
+F 5 "C81598" H 16350 2250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 16350 2250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 16350 2250 50  0001 C CNN "Manufacturer PN"
+	1    16350 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	16550 1900 16800 1900
+Wire Wire Line
+	16350 2100 16350 2150
+Connection ~ 16800 1900
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_34
+U 1 1 00000341
+P 17350 1950
+F 0 "K_34" H 17350 2183 60  0000 C CNN
+F 1 "KEYSW" H 17350 1850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 17350 1950 60  0001 C CNN
+F 3 "" H 17350 1950 60  0000 C CNN
+	1    17350 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_34
+U 1 1 00000340
+P 17300 2250
+F 0 "D_34" V 17370 2150 50  0000 R CNN
+F 1 "D" V 17280 2150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 17000 2200 50  0001 C CNN
+F 3 "" H 17000 2200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 17300 2250 50  0001 C CNN "Description"
+F 5 "C81598" H 17300 2250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 17300 2250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 17300 2250 50  0001 C CNN "Manufacturer PN"
+	1    17300 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	17500 1900 17750 1900
+Wire Wire Line
+	17300 2100 17300 2150
+Connection ~ 17750 1900
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_35
+U 1 1 00000351
+P 18350 1950
+F 0 "K_35" H 18350 2183 60  0000 C CNN
+F 1 "KEYSW" H 18350 1850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 18350 1950 60  0001 C CNN
+F 3 "" H 18350 1950 60  0000 C CNN
+	1    18350 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_35
+U 1 1 00000350
+P 18300 2250
+F 0 "D_35" V 18370 2150 50  0000 R CNN
+F 1 "D" V 18280 2150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 18000 2200 50  0001 C CNN
+F 3 "" H 18000 2200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 18300 2250 50  0001 C CNN "Description"
+F 5 "C81598" H 18300 2250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 18300 2250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 18300 2250 50  0001 C CNN "Manufacturer PN"
+	1    18300 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	18500 1900 18750 1900
+Wire Wire Line
+	18300 2100 18300 2150
+Connection ~ 18750 1900
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_36
+U 1 1 00000361
+P 19350 1950
+F 0 "K_36" H 19350 2183 60  0000 C CNN
+F 1 "KEYSW" H 19350 1850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 19350 1950 60  0001 C CNN
+F 3 "" H 19350 1950 60  0000 C CNN
+	1    19350 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_36
+U 1 1 00000360
+P 19300 2250
+F 0 "D_36" V 19370 2150 50  0000 R CNN
+F 1 "D" V 19280 2150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 19000 2200 50  0001 C CNN
+F 3 "" H 19000 2200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 19300 2250 50  0001 C CNN "Description"
+F 5 "C81598" H 19300 2250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 19300 2250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 19300 2250 50  0001 C CNN "Manufacturer PN"
+	1    19300 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	19500 1900 19750 1900
+Wire Wire Line
+	19300 2100 19300 2150
+Connection ~ 19750 1900
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_37
+U 1 1 00000371
+P 20350 1950
+F 0 "K_37" H 20350 2183 60  0000 C CNN
+F 1 "KEYSW" H 20350 1850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 20350 1950 60  0001 C CNN
+F 3 "" H 20350 1950 60  0000 C CNN
+	1    20350 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_37
+U 1 1 00000370
+P 20300 2250
+F 0 "D_37" V 20370 2150 50  0000 R CNN
+F 1 "D" V 20280 2150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 20000 2200 50  0001 C CNN
+F 3 "" H 20000 2200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 20300 2250 50  0001 C CNN "Description"
+F 5 "C81598" H 20300 2250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 20300 2250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 20300 2250 50  0001 C CNN "Manufacturer PN"
+	1    20300 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	20500 1900 20750 1900
+Wire Wire Line
+	20300 2100 20300 2150
+Connection ~ 20750 1900
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_38
+U 1 1 00000381
+P 21350 1950
+F 0 "K_38" H 21350 2183 60  0000 C CNN
+F 1 "KEYSW" H 21350 1850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 21350 1950 60  0001 C CNN
+F 3 "" H 21350 1950 60  0000 C CNN
+	1    21350 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_38
+U 1 1 00000380
+P 21300 2250
+F 0 "D_38" V 21370 2150 50  0000 R CNN
+F 1 "D" V 21280 2150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 21000 2200 50  0001 C CNN
+F 3 "" H 21000 2200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 21300 2250 50  0001 C CNN "Description"
+F 5 "C81598" H 21300 2250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 21300 2250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 21300 2250 50  0001 C CNN "Manufacturer PN"
+	1    21300 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	21500 1900 21750 1900
+Wire Wire Line
+	21300 2100 21300 2150
+Connection ~ 21750 1900
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_39
+U 1 1 00000391
+P 22350 1950
+F 0 "K_39" H 22350 2183 60  0000 C CNN
+F 1 "KEYSW" H 22350 1850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 22350 1950 60  0001 C CNN
+F 3 "" H 22350 1950 60  0000 C CNN
+	1    22350 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_39
+U 1 1 00000390
+P 22300 2250
+F 0 "D_39" V 22370 2150 50  0000 R CNN
+F 1 "D" V 22280 2150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 22000 2200 50  0001 C CNN
+F 3 "" H 22000 2200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 22300 2250 50  0001 C CNN "Description"
+F 5 "C81598" H 22300 2250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 22300 2250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 22300 2250 50  0001 C CNN "Manufacturer PN"
+	1    22300 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	22500 1900 22750 1900
+Wire Wire Line
+	22300 2100 22300 2150
+Connection ~ 22750 1900
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_40
+U 1 1 00000401
+P 23350 1950
+F 0 "K_40" H 23350 2183 60  0000 C CNN
+F 1 "KEYSW" H 23350 1850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 23350 1950 60  0001 C CNN
+F 3 "" H 23350 1950 60  0000 C CNN
+	1    23350 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_40
+U 1 1 00000400
+P 23300 2250
+F 0 "D_40" V 23370 2150 50  0000 R CNN
+F 1 "D" V 23280 2150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 23000 2200 50  0001 C CNN
+F 3 "" H 23000 2200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 23300 2250 50  0001 C CNN "Description"
+F 5 "C81598" H 23300 2250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 23300 2250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 23300 2250 50  0001 C CNN "Manufacturer PN"
+	1    23300 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	23500 1900 23750 1900
+Wire Wire Line
+	23300 2100 23300 2150
+Connection ~ 23750 1900
+Text GLabel 900  3350 0    50   Input ~ 0
+row2
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_41
+U 1 1 00000411
+P 1400 2950
+F 0 "K_41" H 1400 3183 60  0000 C CNN
+F 1 "KEYSW" H 1400 2850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 1400 2950 60  0001 C CNN
+F 3 "" H 1400 2950 60  0000 C CNN
+	1    1400 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_41
+U 1 1 00000410
+P 1350 3250
+F 0 "D_41" V 1420 3150 50  0000 R CNN
+F 1 "D" V 1330 3150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 1050 3200 50  0001 C CNN
+F 3 "" H 1050 3200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 1350 3250 50  0001 C CNN "Description"
+F 5 "C81598" H 1350 3250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 1350 3250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 1350 3250 50  0001 C CNN "Manufacturer PN"
+	1    1350 3250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1550 2900 1800 2900
+Wire Wire Line
+	1350 3100 1350 3150
+Connection ~ 1800 2900
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_42
+U 1 1 00000421
+P 3400 2950
+F 0 "K_42" H 3400 3183 60  0000 C CNN
+F 1 "KEYSW" H 3400 2850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1.5U-NoLED" H 3400 2950 60  0001 C CNN
+F 3 "" H 3400 2950 60  0000 C CNN
+	1    3400 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_42
+U 1 1 00000420
+P 3350 3250
+F 0 "D_42" V 3420 3150 50  0000 R CNN
+F 1 "D" V 3330 3150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 3050 3200 50  0001 C CNN
+F 3 "" H 3050 3200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 3350 3250 50  0001 C CNN "Description"
+F 5 "C81598" H 3350 3250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 3350 3250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 3350 3250 50  0001 C CNN "Manufacturer PN"
+	1    3350 3250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3550 2900 3800 2900
+Wire Wire Line
+	3350 3100 3350 3150
+Connection ~ 3800 2900
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_43
+U 1 1 00000431
+P 4400 2950
+F 0 "K_43" H 4400 3183 60  0000 C CNN
+F 1 "KEYSW" H 4400 2850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 4400 2950 60  0001 C CNN
+F 3 "" H 4400 2950 60  0000 C CNN
+	1    4400 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_43
+U 1 1 00000430
+P 4350 3250
+F 0 "D_43" V 4420 3150 50  0000 R CNN
+F 1 "D" V 4330 3150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 4050 3200 50  0001 C CNN
+F 3 "" H 4050 3200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 4350 3250 50  0001 C CNN "Description"
+F 5 "C81598" H 4350 3250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 4350 3250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 4350 3250 50  0001 C CNN "Manufacturer PN"
+	1    4350 3250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4550 2900 4800 2900
+Wire Wire Line
+	4350 3100 4350 3150
+Connection ~ 4800 2900
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_44
+U 1 1 00000441
+P 5400 2950
+F 0 "K_44" H 5400 3183 60  0000 C CNN
+F 1 "KEYSW" H 5400 2850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 5400 2950 60  0001 C CNN
+F 3 "" H 5400 2950 60  0000 C CNN
+	1    5400 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_44
+U 1 1 00000440
+P 5350 3250
+F 0 "D_44" V 5420 3150 50  0000 R CNN
+F 1 "D" V 5330 3150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 5050 3200 50  0001 C CNN
+F 3 "" H 5050 3200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 5350 3250 50  0001 C CNN "Description"
+F 5 "C81598" H 5350 3250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 5350 3250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 5350 3250 50  0001 C CNN "Manufacturer PN"
+	1    5350 3250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5550 2900 5800 2900
+Wire Wire Line
+	5350 3100 5350 3150
+Connection ~ 5800 2900
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_45
+U 1 1 00000451
+P 6400 2950
+F 0 "K_45" H 6400 3183 60  0000 C CNN
+F 1 "KEYSW" H 6400 2850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 6400 2950 60  0001 C CNN
+F 3 "" H 6400 2950 60  0000 C CNN
+	1    6400 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_45
+U 1 1 00000450
+P 6350 3250
+F 0 "D_45" V 6420 3150 50  0000 R CNN
+F 1 "D" V 6330 3150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 6050 3200 50  0001 C CNN
+F 3 "" H 6050 3200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 6350 3250 50  0001 C CNN "Description"
+F 5 "C81598" H 6350 3250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 6350 3250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 6350 3250 50  0001 C CNN "Manufacturer PN"
+	1    6350 3250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6550 2900 6800 2900
+Wire Wire Line
+	6350 3100 6350 3150
+Connection ~ 6800 2900
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_46
+U 1 1 00000461
+P 7400 2950
+F 0 "K_46" H 7400 3183 60  0000 C CNN
+F 1 "KEYSW" H 7400 2850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 7400 2950 60  0001 C CNN
+F 3 "" H 7400 2950 60  0000 C CNN
+	1    7400 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_46
+U 1 1 00000460
+P 7350 3250
+F 0 "D_46" V 7420 3150 50  0000 R CNN
+F 1 "D" V 7330 3150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 7050 3200 50  0001 C CNN
+F 3 "" H 7050 3200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 7350 3250 50  0001 C CNN "Description"
+F 5 "C81598" H 7350 3250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 7350 3250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 7350 3250 50  0001 C CNN "Manufacturer PN"
+	1    7350 3250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7550 2900 7800 2900
+Wire Wire Line
+	7350 3100 7350 3150
+Connection ~ 7800 2900
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_47
+U 1 1 00000471
+P 8400 2950
+F 0 "K_47" H 8400 3183 60  0000 C CNN
+F 1 "KEYSW" H 8400 2850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 8400 2950 60  0001 C CNN
+F 3 "" H 8400 2950 60  0000 C CNN
+	1    8400 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_47
+U 1 1 00000470
+P 8350 3250
+F 0 "D_47" V 8420 3150 50  0000 R CNN
+F 1 "D" V 8330 3150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 8050 3200 50  0001 C CNN
+F 3 "" H 8050 3200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 8350 3250 50  0001 C CNN "Description"
+F 5 "C81598" H 8350 3250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 8350 3250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 8350 3250 50  0001 C CNN "Manufacturer PN"
+	1    8350 3250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8550 2900 8800 2900
+Wire Wire Line
+	8350 3100 8350 3150
+Connection ~ 8800 2900
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_48
+U 1 1 00000481
+P 9400 2950
+F 0 "K_48" H 9400 3183 60  0000 C CNN
+F 1 "KEYSW" H 9400 2850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 9400 2950 60  0001 C CNN
+F 3 "" H 9400 2950 60  0000 C CNN
+	1    9400 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_48
+U 1 1 00000480
+P 9350 3250
+F 0 "D_48" V 9420 3150 50  0000 R CNN
+F 1 "D" V 9330 3150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 9050 3200 50  0001 C CNN
+F 3 "" H 9050 3200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 9350 3250 50  0001 C CNN "Description"
+F 5 "C81598" H 9350 3250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 9350 3250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 9350 3250 50  0001 C CNN "Manufacturer PN"
+	1    9350 3250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9550 2900 9800 2900
+Wire Wire Line
+	9350 3100 9350 3150
+Connection ~ 9800 2900
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_49
+U 1 1 00000491
+P 10400 2950
+F 0 "K_49" H 10400 3183 60  0000 C CNN
+F 1 "KEYSW" H 10400 2850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 10400 2950 60  0001 C CNN
+F 3 "" H 10400 2950 60  0000 C CNN
+	1    10400 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_49
+U 1 1 00000490
+P 10350 3250
+F 0 "D_49" V 10420 3150 50  0000 R CNN
+F 1 "D" V 10330 3150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 10050 3200 50  0001 C CNN
+F 3 "" H 10050 3200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 10350 3250 50  0001 C CNN "Description"
+F 5 "C81598" H 10350 3250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 10350 3250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 10350 3250 50  0001 C CNN "Manufacturer PN"
+	1    10350 3250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10550 2900 10800 2900
+Wire Wire Line
+	10350 3100 10350 3150
+Connection ~ 10800 2900
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_50
+U 1 1 00000501
+P 11400 2950
+F 0 "K_50" H 11400 3183 60  0000 C CNN
+F 1 "KEYSW" H 11400 2850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 11400 2950 60  0001 C CNN
+F 3 "" H 11400 2950 60  0000 C CNN
+	1    11400 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_50
+U 1 1 00000500
+P 11350 3250
+F 0 "D_50" V 11420 3150 50  0000 R CNN
+F 1 "D" V 11330 3150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 11050 3200 50  0001 C CNN
+F 3 "" H 11050 3200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 11350 3250 50  0001 C CNN "Description"
+F 5 "C81598" H 11350 3250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 11350 3250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 11350 3250 50  0001 C CNN "Manufacturer PN"
+	1    11350 3250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11550 2900 11800 2900
+Wire Wire Line
+	11350 3100 11350 3150
+Connection ~ 11800 2900
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_51
+U 1 1 00000511
+P 12400 2950
+F 0 "K_51" H 12400 3183 60  0000 C CNN
+F 1 "KEYSW" H 12400 2850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 12400 2950 60  0001 C CNN
+F 3 "" H 12400 2950 60  0000 C CNN
+	1    12400 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_51
+U 1 1 00000510
+P 12350 3250
+F 0 "D_51" V 12420 3150 50  0000 R CNN
+F 1 "D" V 12330 3150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 12050 3200 50  0001 C CNN
+F 3 "" H 12050 3200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 12350 3250 50  0001 C CNN "Description"
+F 5 "C81598" H 12350 3250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 12350 3250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 12350 3250 50  0001 C CNN "Manufacturer PN"
+	1    12350 3250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12550 2900 12800 2900
+Wire Wire Line
+	12350 3100 12350 3150
+Connection ~ 12800 2900
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_52
+U 1 1 00000521
+P 13400 2950
+F 0 "K_52" H 13400 3183 60  0000 C CNN
+F 1 "KEYSW" H 13400 2850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 13400 2950 60  0001 C CNN
+F 3 "" H 13400 2950 60  0000 C CNN
+	1    13400 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_52
+U 1 1 00000520
+P 13350 3250
+F 0 "D_52" V 13420 3150 50  0000 R CNN
+F 1 "D" V 13330 3150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 13050 3200 50  0001 C CNN
+F 3 "" H 13050 3200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 13350 3250 50  0001 C CNN "Description"
+F 5 "C81598" H 13350 3250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 13350 3250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 13350 3250 50  0001 C CNN "Manufacturer PN"
+	1    13350 3250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13550 2900 13800 2900
+Wire Wire Line
+	13350 3100 13350 3150
+Connection ~ 13800 2900
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_53
+U 1 1 00000531
+P 14400 2950
+F 0 "K_53" H 14400 3183 60  0000 C CNN
+F 1 "KEYSW" H 14400 2850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 14400 2950 60  0001 C CNN
+F 3 "" H 14400 2950 60  0000 C CNN
+	1    14400 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_53
+U 1 1 00000530
+P 14350 3250
+F 0 "D_53" V 14420 3150 50  0000 R CNN
+F 1 "D" V 14330 3150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 14050 3200 50  0001 C CNN
+F 3 "" H 14050 3200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 14350 3250 50  0001 C CNN "Description"
+F 5 "C81598" H 14350 3250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 14350 3250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 14350 3250 50  0001 C CNN "Manufacturer PN"
+	1    14350 3250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	14550 2900 14800 2900
+Wire Wire Line
+	14350 3100 14350 3150
+Connection ~ 14800 2900
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_54
+U 1 1 00000541
+P 15400 2950
+F 0 "K_54" H 15400 3183 60  0000 C CNN
+F 1 "KEYSW" H 15400 2850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 15400 2950 60  0001 C CNN
+F 3 "" H 15400 2950 60  0000 C CNN
+	1    15400 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_54
+U 1 1 00000540
+P 15350 3250
+F 0 "D_54" V 15420 3150 50  0000 R CNN
+F 1 "D" V 15330 3150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 15050 3200 50  0001 C CNN
+F 3 "" H 15050 3200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 15350 3250 50  0001 C CNN "Description"
+F 5 "C81598" H 15350 3250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 15350 3250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 15350 3250 50  0001 C CNN "Manufacturer PN"
+	1    15350 3250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	15550 2900 15800 2900
+Wire Wire Line
+	15350 3100 15350 3150
+Connection ~ 15800 2900
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_55
+U 1 1 00000551
+P 16400 2950
+F 0 "K_55" H 16400 3183 60  0000 C CNN
+F 1 "KEYSW" H 16400 2850 60  0001 C CNN
+F 2 "FullsizeKBD:MX-ISO-NoLED" H 16400 2950 60  0001 C CNN
+F 3 "" H 16400 2950 60  0000 C CNN
+	1    16400 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_55
+U 1 1 00000550
+P 16350 3250
+F 0 "D_55" V 16420 3150 50  0000 R CNN
+F 1 "D" V 16330 3150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 16050 3200 50  0001 C CNN
+F 3 "" H 16050 3200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 16350 3250 50  0001 C CNN "Description"
+F 5 "C81598" H 16350 3250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 16350 3250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 16350 3250 50  0001 C CNN "Manufacturer PN"
+	1    16350 3250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	16550 2900 16800 2900
+Wire Wire Line
+	16350 3100 16350 3150
+Connection ~ 16800 2900
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_56
+U 1 1 00000561
+P 17350 2950
+F 0 "K_56" H 17350 3183 60  0000 C CNN
+F 1 "KEYSW" H 17350 2850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 17350 2950 60  0001 C CNN
+F 3 "" H 17350 2950 60  0000 C CNN
+	1    17350 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_56
+U 1 1 00000560
+P 17300 3250
+F 0 "D_56" V 17370 3150 50  0000 R CNN
+F 1 "D" V 17280 3150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 17000 3200 50  0001 C CNN
+F 3 "" H 17000 3200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 17300 3250 50  0001 C CNN "Description"
+F 5 "C81598" H 17300 3250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 17300 3250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 17300 3250 50  0001 C CNN "Manufacturer PN"
+	1    17300 3250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	17500 2900 17750 2900
+Wire Wire Line
+	17300 3100 17300 3150
+Connection ~ 17750 2900
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_57
+U 1 1 00000571
+P 18350 2950
+F 0 "K_57" H 18350 3183 60  0000 C CNN
+F 1 "KEYSW" H 18350 2850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 18350 2950 60  0001 C CNN
+F 3 "" H 18350 2950 60  0000 C CNN
+	1    18350 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_57
+U 1 1 00000570
+P 18300 3250
+F 0 "D_57" V 18370 3150 50  0000 R CNN
+F 1 "D" V 18280 3150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 18000 3200 50  0001 C CNN
+F 3 "" H 18000 3200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 18300 3250 50  0001 C CNN "Description"
+F 5 "C81598" H 18300 3250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 18300 3250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 18300 3250 50  0001 C CNN "Manufacturer PN"
+	1    18300 3250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	18500 2900 18750 2900
+Wire Wire Line
+	18300 3100 18300 3150
+Connection ~ 18750 2900
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_58
+U 1 1 00000581
+P 19350 2950
+F 0 "K_58" H 19350 3183 60  0000 C CNN
+F 1 "KEYSW" H 19350 2850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 19350 2950 60  0001 C CNN
+F 3 "" H 19350 2950 60  0000 C CNN
+	1    19350 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_58
+U 1 1 00000580
+P 19300 3250
+F 0 "D_58" V 19370 3150 50  0000 R CNN
+F 1 "D" V 19280 3150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 19000 3200 50  0001 C CNN
+F 3 "" H 19000 3200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 19300 3250 50  0001 C CNN "Description"
+F 5 "C81598" H 19300 3250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 19300 3250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 19300 3250 50  0001 C CNN "Manufacturer PN"
+	1    19300 3250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	19500 2900 19750 2900
+Wire Wire Line
+	19300 3100 19300 3150
+Connection ~ 19750 2900
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_59
+U 1 1 00000591
+P 20350 2950
+F 0 "K_59" H 20350 3183 60  0000 C CNN
+F 1 "KEYSW" H 20350 2850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 20350 2950 60  0001 C CNN
+F 3 "" H 20350 2950 60  0000 C CNN
+	1    20350 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_59
+U 1 1 00000590
+P 20300 3250
+F 0 "D_59" V 20370 3150 50  0000 R CNN
+F 1 "D" V 20280 3150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 20000 3200 50  0001 C CNN
+F 3 "" H 20000 3200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 20300 3250 50  0001 C CNN "Description"
+F 5 "C81598" H 20300 3250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 20300 3250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 20300 3250 50  0001 C CNN "Manufacturer PN"
+	1    20300 3250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	20500 2900 20750 2900
+Wire Wire Line
+	20300 3100 20300 3150
+Connection ~ 20750 2900
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_60
+U 1 1 00000601
+P 21350 2950
+F 0 "K_60" H 21350 3183 60  0000 C CNN
+F 1 "KEYSW" H 21350 2850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 21350 2950 60  0001 C CNN
+F 3 "" H 21350 2950 60  0000 C CNN
+	1    21350 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_60
+U 1 1 00000600
+P 21300 3250
+F 0 "D_60" V 21370 3150 50  0000 R CNN
+F 1 "D" V 21280 3150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 21000 3200 50  0001 C CNN
+F 3 "" H 21000 3200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 21300 3250 50  0001 C CNN "Description"
+F 5 "C81598" H 21300 3250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 21300 3250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 21300 3250 50  0001 C CNN "Manufacturer PN"
+	1    21300 3250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	21500 2900 21750 2900
+Wire Wire Line
+	21300 3100 21300 3150
+Connection ~ 21750 2900
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_61
+U 1 1 00000611
+P 22350 2950
+F 0 "K_61" H 22350 3183 60  0000 C CNN
+F 1 "KEYSW" H 22350 2850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 22350 2950 60  0001 C CNN
+F 3 "" H 22350 2950 60  0000 C CNN
+	1    22350 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_61
+U 1 1 00000610
+P 22300 3250
+F 0 "D_61" V 22370 3150 50  0000 R CNN
+F 1 "D" V 22280 3150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 22000 3200 50  0001 C CNN
+F 3 "" H 22000 3200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 22300 3250 50  0001 C CNN "Description"
+F 5 "C81598" H 22300 3250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 22300 3250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 22300 3250 50  0001 C CNN "Manufacturer PN"
+	1    22300 3250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	22500 2900 22750 2900
+Wire Wire Line
+	22300 3100 22300 3150
+Connection ~ 22750 2900
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_62
+U 1 1 00000621
+P 23350 2950
+F 0 "K_62" H 23350 3183 60  0000 C CNN
+F 1 "KEYSW" H 23350 2850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-2U-NoLED" H 23350 2950 60  0001 C CNN
+F 3 "" H 23350 2950 60  0000 C CNN
+	1    23350 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_62
+U 1 1 00000620
+P 23300 3250
+F 0 "D_62" V 23370 3150 50  0000 R CNN
+F 1 "D" V 23280 3150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 23000 3200 50  0001 C CNN
+F 3 "" H 23000 3200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 23300 3250 50  0001 C CNN "Description"
+F 5 "C81598" H 23300 3250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 23300 3250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 23300 3250 50  0001 C CNN "Manufacturer PN"
+	1    23300 3250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	23500 2900 23750 2900
+Wire Wire Line
+	23300 3100 23300 3150
+Connection ~ 23750 2900
+Text GLabel 900  4350 0    50   Input ~ 0
+row3
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_63
+U 1 1 00000631
+P 1400 3950
+F 0 "K_63" H 1400 4183 60  0000 C CNN
+F 1 "KEYSW" H 1400 3850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 1400 3950 60  0001 C CNN
+F 3 "" H 1400 3950 60  0000 C CNN
+	1    1400 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_63
+U 1 1 00000630
+P 1350 4250
+F 0 "D_63" V 1420 4150 50  0000 R CNN
+F 1 "D" V 1330 4150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 1050 4200 50  0001 C CNN
+F 3 "" H 1050 4200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 1350 4250 50  0001 C CNN "Description"
+F 5 "C81598" H 1350 4250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 1350 4250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 1350 4250 50  0001 C CNN "Manufacturer PN"
+	1    1350 4250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1550 3900 1800 3900
+Wire Wire Line
+	1350 4100 1350 4150
+Connection ~ 1800 3900
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_64
+U 1 1 00000641
+P 3400 3950
+F 0 "K_64" H 3400 4183 60  0000 C CNN
+F 1 "KEYSW" H 3400 3850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1.75U-NoLED" H 3400 3950 60  0001 C CNN
+F 3 "" H 3400 3950 60  0000 C CNN
+	1    3400 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_64
+U 1 1 00000640
+P 3350 4250
+F 0 "D_64" V 3420 4150 50  0000 R CNN
+F 1 "D" V 3330 4150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 3050 4200 50  0001 C CNN
+F 3 "" H 3050 4200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 3350 4250 50  0001 C CNN "Description"
+F 5 "C81598" H 3350 4250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 3350 4250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 3350 4250 50  0001 C CNN "Manufacturer PN"
+	1    3350 4250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3550 3900 3800 3900
+Wire Wire Line
+	3350 4100 3350 4150
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_65
+U 1 1 00000651
+P 4400 3950
+F 0 "K_65" H 4400 4183 60  0000 C CNN
+F 1 "KEYSW" H 4400 3850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 4400 3950 60  0001 C CNN
+F 3 "" H 4400 3950 60  0000 C CNN
+	1    4400 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_65
+U 1 1 00000650
+P 4350 4250
+F 0 "D_65" V 4420 4150 50  0000 R CNN
+F 1 "D" V 4330 4150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 4050 4200 50  0001 C CNN
+F 3 "" H 4050 4200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 4350 4250 50  0001 C CNN "Description"
+F 5 "C81598" H 4350 4250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 4350 4250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 4350 4250 50  0001 C CNN "Manufacturer PN"
+	1    4350 4250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4550 3900 4800 3900
+Wire Wire Line
+	4350 4100 4350 4150
+Connection ~ 4800 3900
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_66
+U 1 1 00000661
+P 5400 3950
+F 0 "K_66" H 5400 4183 60  0000 C CNN
+F 1 "KEYSW" H 5400 3850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 5400 3950 60  0001 C CNN
+F 3 "" H 5400 3950 60  0000 C CNN
+	1    5400 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_66
+U 1 1 00000660
+P 5350 4250
+F 0 "D_66" V 5420 4150 50  0000 R CNN
+F 1 "D" V 5330 4150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 5050 4200 50  0001 C CNN
+F 3 "" H 5050 4200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 5350 4250 50  0001 C CNN "Description"
+F 5 "C81598" H 5350 4250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 5350 4250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 5350 4250 50  0001 C CNN "Manufacturer PN"
+	1    5350 4250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5550 3900 5800 3900
+Wire Wire Line
+	5350 4100 5350 4150
+Connection ~ 5800 3900
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_67
+U 1 1 00000671
+P 6400 3950
+F 0 "K_67" H 6400 4183 60  0000 C CNN
+F 1 "KEYSW" H 6400 3850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 6400 3950 60  0001 C CNN
+F 3 "" H 6400 3950 60  0000 C CNN
+	1    6400 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_67
+U 1 1 00000670
+P 6350 4250
+F 0 "D_67" V 6420 4150 50  0000 R CNN
+F 1 "D" V 6330 4150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 6050 4200 50  0001 C CNN
+F 3 "" H 6050 4200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 6350 4250 50  0001 C CNN "Description"
+F 5 "C81598" H 6350 4250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 6350 4250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 6350 4250 50  0001 C CNN "Manufacturer PN"
+	1    6350 4250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6550 3900 6800 3900
+Wire Wire Line
+	6350 4100 6350 4150
+Connection ~ 6800 3900
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_68
+U 1 1 00000681
+P 7400 3950
+F 0 "K_68" H 7400 4183 60  0000 C CNN
+F 1 "KEYSW" H 7400 3850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 7400 3950 60  0001 C CNN
+F 3 "" H 7400 3950 60  0000 C CNN
+	1    7400 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_68
+U 1 1 00000680
+P 7350 4250
+F 0 "D_68" V 7420 4150 50  0000 R CNN
+F 1 "D" V 7330 4150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 7050 4200 50  0001 C CNN
+F 3 "" H 7050 4200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 7350 4250 50  0001 C CNN "Description"
+F 5 "C81598" H 7350 4250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 7350 4250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 7350 4250 50  0001 C CNN "Manufacturer PN"
+	1    7350 4250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7550 3900 7800 3900
+Wire Wire Line
+	7350 4100 7350 4150
+Connection ~ 7800 3900
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_69
+U 1 1 00000691
+P 8400 3950
+F 0 "K_69" H 8400 4183 60  0000 C CNN
+F 1 "KEYSW" H 8400 3850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 8400 3950 60  0001 C CNN
+F 3 "" H 8400 3950 60  0000 C CNN
+	1    8400 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_69
+U 1 1 00000690
+P 8350 4250
+F 0 "D_69" V 8420 4150 50  0000 R CNN
+F 1 "D" V 8330 4150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 8050 4200 50  0001 C CNN
+F 3 "" H 8050 4200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 8350 4250 50  0001 C CNN "Description"
+F 5 "C81598" H 8350 4250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 8350 4250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 8350 4250 50  0001 C CNN "Manufacturer PN"
+	1    8350 4250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8550 3900 8800 3900
+Wire Wire Line
+	8350 4100 8350 4150
+Connection ~ 8800 3900
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_70
+U 1 1 00000701
+P 9400 3950
+F 0 "K_70" H 9400 4183 60  0000 C CNN
+F 1 "KEYSW" H 9400 3850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 9400 3950 60  0001 C CNN
+F 3 "" H 9400 3950 60  0000 C CNN
+	1    9400 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_70
+U 1 1 00000700
+P 9350 4250
+F 0 "D_70" V 9420 4150 50  0000 R CNN
+F 1 "D" V 9330 4150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 9050 4200 50  0001 C CNN
+F 3 "" H 9050 4200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 9350 4250 50  0001 C CNN "Description"
+F 5 "C81598" H 9350 4250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 9350 4250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 9350 4250 50  0001 C CNN "Manufacturer PN"
+	1    9350 4250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9550 3900 9800 3900
+Wire Wire Line
+	9350 4100 9350 4150
+Connection ~ 9800 3900
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_71
+U 1 1 00000711
+P 10400 3950
+F 0 "K_71" H 10400 4183 60  0000 C CNN
+F 1 "KEYSW" H 10400 3850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 10400 3950 60  0001 C CNN
+F 3 "" H 10400 3950 60  0000 C CNN
+	1    10400 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_71
+U 1 1 00000710
+P 10350 4250
+F 0 "D_71" V 10420 4150 50  0000 R CNN
+F 1 "D" V 10330 4150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 10050 4200 50  0001 C CNN
+F 3 "" H 10050 4200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 10350 4250 50  0001 C CNN "Description"
+F 5 "C81598" H 10350 4250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 10350 4250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 10350 4250 50  0001 C CNN "Manufacturer PN"
+	1    10350 4250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10550 3900 10800 3900
+Wire Wire Line
+	10350 4100 10350 4150
+Connection ~ 10800 3900
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_72
+U 1 1 00000721
+P 11400 3950
+F 0 "K_72" H 11400 4183 60  0000 C CNN
+F 1 "KEYSW" H 11400 3850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 11400 3950 60  0001 C CNN
+F 3 "" H 11400 3950 60  0000 C CNN
+	1    11400 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_72
+U 1 1 00000720
+P 11350 4250
+F 0 "D_72" V 11420 4150 50  0000 R CNN
+F 1 "D" V 11330 4150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 11050 4200 50  0001 C CNN
+F 3 "" H 11050 4200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 11350 4250 50  0001 C CNN "Description"
+F 5 "C81598" H 11350 4250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 11350 4250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 11350 4250 50  0001 C CNN "Manufacturer PN"
+	1    11350 4250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11550 3900 11800 3900
+Wire Wire Line
+	11350 4100 11350 4150
+Connection ~ 11800 3900
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_73
+U 1 1 00000731
+P 12400 3950
+F 0 "K_73" H 12400 4183 60  0000 C CNN
+F 1 "KEYSW" H 12400 3850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 12400 3950 60  0001 C CNN
+F 3 "" H 12400 3950 60  0000 C CNN
+	1    12400 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_73
+U 1 1 00000730
+P 12350 4250
+F 0 "D_73" V 12420 4150 50  0000 R CNN
+F 1 "D" V 12330 4150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 12050 4200 50  0001 C CNN
+F 3 "" H 12050 4200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 12350 4250 50  0001 C CNN "Description"
+F 5 "C81598" H 12350 4250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 12350 4250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 12350 4250 50  0001 C CNN "Manufacturer PN"
+	1    12350 4250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12550 3900 12800 3900
+Wire Wire Line
+	12350 4100 12350 4150
+Connection ~ 12800 3900
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_74
+U 1 1 00000741
+P 13400 3950
+F 0 "K_74" H 13400 4183 60  0000 C CNN
+F 1 "KEYSW" H 13400 3850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 13400 3950 60  0001 C CNN
+F 3 "" H 13400 3950 60  0000 C CNN
+	1    13400 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_74
+U 1 1 00000740
+P 13350 4250
+F 0 "D_74" V 13420 4150 50  0000 R CNN
+F 1 "D" V 13330 4150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 13050 4200 50  0001 C CNN
+F 3 "" H 13050 4200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 13350 4250 50  0001 C CNN "Description"
+F 5 "C81598" H 13350 4250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 13350 4250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 13350 4250 50  0001 C CNN "Manufacturer PN"
+	1    13350 4250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13550 3900 13800 3900
+Wire Wire Line
+	13350 4100 13350 4150
+Connection ~ 13800 3900
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_75
+U 1 1 00000751
+P 14400 3950
+F 0 "K_75" H 14400 4183 60  0000 C CNN
+F 1 "KEYSW" H 14400 3850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 14400 3950 60  0001 C CNN
+F 3 "" H 14400 3950 60  0000 C CNN
+	1    14400 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_75
+U 1 1 00000750
+P 14350 4250
+F 0 "D_75" V 14420 4150 50  0000 R CNN
+F 1 "D" V 14330 4150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 14050 4200 50  0001 C CNN
+F 3 "" H 14050 4200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 14350 4250 50  0001 C CNN "Description"
+F 5 "C81598" H 14350 4250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 14350 4250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 14350 4250 50  0001 C CNN "Manufacturer PN"
+	1    14350 4250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	14550 3900 14800 3900
+Wire Wire Line
+	14350 4100 14350 4150
+Connection ~ 14800 3900
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_76
+U 1 1 00000761
+P 15400 3950
+F 0 "K_76" H 15400 4183 60  0000 C CNN
+F 1 "KEYSW" H 15400 3850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 15400 3950 60  0001 C CNN
+F 3 "" H 15400 3950 60  0000 C CNN
+	1    15400 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_76
+U 1 1 00000760
+P 15350 4250
+F 0 "D_76" V 15420 4150 50  0000 R CNN
+F 1 "D" V 15330 4150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 15050 4200 50  0001 C CNN
+F 3 "" H 15050 4200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 15350 4250 50  0001 C CNN "Description"
+F 5 "C81598" H 15350 4250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 15350 4250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 15350 4250 50  0001 C CNN "Manufacturer PN"
+	1    15350 4250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	15550 3900 15800 3900
+Wire Wire Line
+	15350 4100 15350 4150
+Connection ~ 15800 3900
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_77
+U 1 1 00000771
+P 20350 3950
+F 0 "K_77" H 20350 4183 60  0000 C CNN
+F 1 "KEYSW" H 20350 3850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 20350 3950 60  0001 C CNN
+F 3 "" H 20350 3950 60  0000 C CNN
+	1    20350 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_77
+U 1 1 00000770
+P 20300 4250
+F 0 "D_77" V 20370 4150 50  0000 R CNN
+F 1 "D" V 20280 4150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 20000 4200 50  0001 C CNN
+F 3 "" H 20000 4200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 20300 4250 50  0001 C CNN "Description"
+F 5 "C81598" H 20300 4250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 20300 4250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 20300 4250 50  0001 C CNN "Manufacturer PN"
+	1    20300 4250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	20500 3900 20750 3900
+Wire Wire Line
+	20300 4100 20300 4150
+Connection ~ 20750 3900
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_78
+U 1 1 00000781
+P 21350 3950
+F 0 "K_78" H 21350 4183 60  0000 C CNN
+F 1 "KEYSW" H 21350 3850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 21350 3950 60  0001 C CNN
+F 3 "" H 21350 3950 60  0000 C CNN
+	1    21350 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_78
+U 1 1 00000780
+P 21300 4250
+F 0 "D_78" V 21370 4150 50  0000 R CNN
+F 1 "D" V 21280 4150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 21000 4200 50  0001 C CNN
+F 3 "" H 21000 4200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 21300 4250 50  0001 C CNN "Description"
+F 5 "C81598" H 21300 4250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 21300 4250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 21300 4250 50  0001 C CNN "Manufacturer PN"
+	1    21300 4250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	21500 3900 21750 3900
+Wire Wire Line
+	21300 4100 21300 4150
+Connection ~ 21750 3900
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_79
+U 1 1 00000791
+P 22350 3950
+F 0 "K_79" H 22350 4183 60  0000 C CNN
+F 1 "KEYSW" H 22350 3850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 22350 3950 60  0001 C CNN
+F 3 "" H 22350 3950 60  0000 C CNN
+	1    22350 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_79
+U 1 1 00000790
+P 22300 4250
+F 0 "D_79" V 22370 4150 50  0000 R CNN
+F 1 "D" V 22280 4150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 22000 4200 50  0001 C CNN
+F 3 "" H 22000 4200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 22300 4250 50  0001 C CNN "Description"
+F 5 "C81598" H 22300 4250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 22300 4250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 22300 4250 50  0001 C CNN "Manufacturer PN"
+	1    22300 4250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	22500 3900 22750 3900
+Wire Wire Line
+	22300 4100 22300 4150
+Connection ~ 22750 3900
+Text GLabel 900  5350 0    50   Input ~ 0
+row4
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_80
+U 1 1 00000801
+P 1400 4950
+F 0 "K_80" H 1400 5183 60  0000 C CNN
+F 1 "KEYSW" H 1400 4850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 1400 4950 60  0001 C CNN
+F 3 "" H 1400 4950 60  0000 C CNN
+	1    1400 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_80
+U 1 1 00000800
+P 1350 5250
+F 0 "D_80" V 1420 5150 50  0000 R CNN
+F 1 "D" V 1330 5150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 1050 5200 50  0001 C CNN
+F 3 "" H 1050 5200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 1350 5250 50  0001 C CNN "Description"
+F 5 "C81598" H 1350 5250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 1350 5250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 1350 5250 50  0001 C CNN "Manufacturer PN"
+	1    1350 5250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1550 4900 1800 4900
+Wire Wire Line
+	1350 5100 1350 5150
+Connection ~ 1800 4900
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_81
+U 1 1 00000811
+P 2400 4950
+F 0 "K_81" H 2400 5183 60  0000 C CNN
+F 1 "KEYSW" H 2400 4850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1.25U-NoLED" H 2400 4950 60  0001 C CNN
+F 3 "" H 2400 4950 60  0000 C CNN
+	1    2400 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_81
+U 1 1 00000810
+P 2350 5250
+F 0 "D_81" V 2420 5150 50  0000 R CNN
+F 1 "D" V 2330 5150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 2050 5200 50  0001 C CNN
+F 3 "" H 2050 5200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 2350 5250 50  0001 C CNN "Description"
+F 5 "C81598" H 2350 5250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 2350 5250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 2350 5250 50  0001 C CNN "Manufacturer PN"
+	1    2350 5250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2550 4900 2800 4900
+Wire Wire Line
+	2350 5100 2350 5150
+Connection ~ 2800 4900
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_82
+U 1 1 00000821
+P 4400 4950
+F 0 "K_82" H 4400 5183 60  0000 C CNN
+F 1 "KEYSW" H 4400 4850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 4400 4950 60  0001 C CNN
+F 3 "" H 4400 4950 60  0000 C CNN
+	1    4400 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_82
+U 1 1 00000820
+P 4350 5250
+F 0 "D_82" V 4420 5150 50  0000 R CNN
+F 1 "D" V 4330 5150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 4050 5200 50  0001 C CNN
+F 3 "" H 4050 5200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 4350 5250 50  0001 C CNN "Description"
+F 5 "C81598" H 4350 5250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 4350 5250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 4350 5250 50  0001 C CNN "Manufacturer PN"
+	1    4350 5250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4550 4900 4800 4900
+Wire Wire Line
+	4350 5100 4350 5150
+Connection ~ 4800 4900
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_83
+U 1 1 00000831
+P 5400 4950
+F 0 "K_83" H 5400 5183 60  0000 C CNN
+F 1 "KEYSW" H 5400 4850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 5400 4950 60  0001 C CNN
+F 3 "" H 5400 4950 60  0000 C CNN
+	1    5400 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_83
+U 1 1 00000830
+P 5350 5250
+F 0 "D_83" V 5420 5150 50  0000 R CNN
+F 1 "D" V 5330 5150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 5050 5200 50  0001 C CNN
+F 3 "" H 5050 5200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 5350 5250 50  0001 C CNN "Description"
+F 5 "C81598" H 5350 5250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 5350 5250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 5350 5250 50  0001 C CNN "Manufacturer PN"
+	1    5350 5250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5550 4900 5800 4900
+Wire Wire Line
+	5350 5100 5350 5150
+Connection ~ 5800 4900
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_84
+U 1 1 00000841
+P 6400 4950
+F 0 "K_84" H 6400 5183 60  0000 C CNN
+F 1 "KEYSW" H 6400 4850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 6400 4950 60  0001 C CNN
+F 3 "" H 6400 4950 60  0000 C CNN
+	1    6400 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_84
+U 1 1 00000840
+P 6350 5250
+F 0 "D_84" V 6420 5150 50  0000 R CNN
+F 1 "D" V 6330 5150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 6050 5200 50  0001 C CNN
+F 3 "" H 6050 5200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 6350 5250 50  0001 C CNN "Description"
+F 5 "C81598" H 6350 5250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 6350 5250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 6350 5250 50  0001 C CNN "Manufacturer PN"
+	1    6350 5250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6550 4900 6800 4900
+Wire Wire Line
+	6350 5100 6350 5150
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_85
+U 1 1 00000851
+P 7400 4950
+F 0 "K_85" H 7400 5183 60  0000 C CNN
+F 1 "KEYSW" H 7400 4850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 7400 4950 60  0001 C CNN
+F 3 "" H 7400 4950 60  0000 C CNN
+	1    7400 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_85
+U 1 1 00000850
+P 7350 5250
+F 0 "D_85" V 7420 5150 50  0000 R CNN
+F 1 "D" V 7330 5150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 7050 5200 50  0001 C CNN
+F 3 "" H 7050 5200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 7350 5250 50  0001 C CNN "Description"
+F 5 "C81598" H 7350 5250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 7350 5250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 7350 5250 50  0001 C CNN "Manufacturer PN"
+	1    7350 5250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7550 4900 7800 4900
+Wire Wire Line
+	7350 5100 7350 5150
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_86
+U 1 1 00000861
+P 8400 4950
+F 0 "K_86" H 8400 5183 60  0000 C CNN
+F 1 "KEYSW" H 8400 4850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 8400 4950 60  0001 C CNN
+F 3 "" H 8400 4950 60  0000 C CNN
+	1    8400 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_86
+U 1 1 00000860
+P 8350 5250
+F 0 "D_86" V 8420 5150 50  0000 R CNN
+F 1 "D" V 8330 5150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 8050 5200 50  0001 C CNN
+F 3 "" H 8050 5200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 8350 5250 50  0001 C CNN "Description"
+F 5 "C81598" H 8350 5250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 8350 5250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 8350 5250 50  0001 C CNN "Manufacturer PN"
+	1    8350 5250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8550 4900 8800 4900
+Wire Wire Line
+	8350 5100 8350 5150
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_87
+U 1 1 00000871
+P 9400 4950
+F 0 "K_87" H 9400 5183 60  0000 C CNN
+F 1 "KEYSW" H 9400 4850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 9400 4950 60  0001 C CNN
+F 3 "" H 9400 4950 60  0000 C CNN
+	1    9400 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_87
+U 1 1 00000870
+P 9350 5250
+F 0 "D_87" V 9420 5150 50  0000 R CNN
+F 1 "D" V 9330 5150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 9050 5200 50  0001 C CNN
+F 3 "" H 9050 5200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 9350 5250 50  0001 C CNN "Description"
+F 5 "C81598" H 9350 5250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 9350 5250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 9350 5250 50  0001 C CNN "Manufacturer PN"
+	1    9350 5250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9550 4900 9800 4900
+Wire Wire Line
+	9350 5100 9350 5150
+Connection ~ 9800 4900
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_88
+U 1 1 00000881
+P 10400 4950
+F 0 "K_88" H 10400 5183 60  0000 C CNN
+F 1 "KEYSW" H 10400 4850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 10400 4950 60  0001 C CNN
+F 3 "" H 10400 4950 60  0000 C CNN
+	1    10400 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_88
+U 1 1 00000880
+P 10350 5250
+F 0 "D_88" V 10420 5150 50  0000 R CNN
+F 1 "D" V 10330 5150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 10050 5200 50  0001 C CNN
+F 3 "" H 10050 5200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 10350 5250 50  0001 C CNN "Description"
+F 5 "C81598" H 10350 5250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 10350 5250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 10350 5250 50  0001 C CNN "Manufacturer PN"
+	1    10350 5250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10550 4900 10800 4900
+Wire Wire Line
+	10350 5100 10350 5150
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_89
+U 1 1 00000891
+P 11400 4950
+F 0 "K_89" H 11400 5183 60  0000 C CNN
+F 1 "KEYSW" H 11400 4850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 11400 4950 60  0001 C CNN
+F 3 "" H 11400 4950 60  0000 C CNN
+	1    11400 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_89
+U 1 1 00000890
+P 11350 5250
+F 0 "D_89" V 11420 5150 50  0000 R CNN
+F 1 "D" V 11330 5150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 11050 5200 50  0001 C CNN
+F 3 "" H 11050 5200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 11350 5250 50  0001 C CNN "Description"
+F 5 "C81598" H 11350 5250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 11350 5250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 11350 5250 50  0001 C CNN "Manufacturer PN"
+	1    11350 5250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11550 4900 11800 4900
+Wire Wire Line
+	11350 5100 11350 5150
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_90
+U 1 1 00000901
+P 12400 4950
+F 0 "K_90" H 12400 5183 60  0000 C CNN
+F 1 "KEYSW" H 12400 4850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 12400 4950 60  0001 C CNN
+F 3 "" H 12400 4950 60  0000 C CNN
+	1    12400 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_90
+U 1 1 00000900
+P 12350 5250
+F 0 "D_90" V 12420 5150 50  0000 R CNN
+F 1 "D" V 12330 5150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 12050 5200 50  0001 C CNN
+F 3 "" H 12050 5200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 12350 5250 50  0001 C CNN "Description"
+F 5 "C81598" H 12350 5250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 12350 5250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 12350 5250 50  0001 C CNN "Manufacturer PN"
+	1    12350 5250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12550 4900 12800 4900
+Wire Wire Line
+	12350 5100 12350 5150
+Connection ~ 12800 4900
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_91
+U 1 1 00000911
+P 13400 4950
+F 0 "K_91" H 13400 5183 60  0000 C CNN
+F 1 "KEYSW" H 13400 4850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 13400 4950 60  0001 C CNN
+F 3 "" H 13400 4950 60  0000 C CNN
+	1    13400 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_91
+U 1 1 00000910
+P 13350 5250
+F 0 "D_91" V 13420 5150 50  0000 R CNN
+F 1 "D" V 13330 5150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 13050 5200 50  0001 C CNN
+F 3 "" H 13050 5200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 13350 5250 50  0001 C CNN "Description"
+F 5 "C81598" H 13350 5250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 13350 5250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 13350 5250 50  0001 C CNN "Manufacturer PN"
+	1    13350 5250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13550 4900 13800 4900
+Wire Wire Line
+	13350 5100 13350 5150
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_92
+U 1 1 00000921
+P 14400 4950
+F 0 "K_92" H 14400 5183 60  0000 C CNN
+F 1 "KEYSW" H 14400 4850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 14400 4950 60  0001 C CNN
+F 3 "" H 14400 4950 60  0000 C CNN
+	1    14400 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_92
+U 1 1 00000920
+P 14350 5250
+F 0 "D_92" V 14420 5150 50  0000 R CNN
+F 1 "D" V 14330 5150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 14050 5200 50  0001 C CNN
+F 3 "" H 14050 5200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 14350 5250 50  0001 C CNN "Description"
+F 5 "C81598" H 14350 5250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 14350 5250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 14350 5250 50  0001 C CNN "Manufacturer PN"
+	1    14350 5250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	14550 4900 14800 4900
+Wire Wire Line
+	14350 5100 14350 5150
+Connection ~ 14800 4900
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_93
+U 1 1 00000931
+P 15400 4950
+F 0 "K_93" H 15400 5183 60  0000 C CNN
+F 1 "KEYSW" H 15400 4850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-2.75U-NoLED" H 15400 4950 60  0001 C CNN
+F 3 "" H 15400 4950 60  0000 C CNN
+	1    15400 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_93
+U 1 1 00000930
+P 15350 5250
+F 0 "D_93" V 15420 5150 50  0000 R CNN
+F 1 "D" V 15330 5150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 15050 5200 50  0001 C CNN
+F 3 "" H 15050 5200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 15350 5250 50  0001 C CNN "Description"
+F 5 "C81598" H 15350 5250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 15350 5250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 15350 5250 50  0001 C CNN "Manufacturer PN"
+	1    15350 5250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	15550 4900 15800 4900
+Wire Wire Line
+	15350 5100 15350 5150
+Connection ~ 15800 4900
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_94
+U 1 1 00000941
+P 18350 4950
+F 0 "K_94" H 18350 5183 60  0000 C CNN
+F 1 "KEYSW" H 18350 4850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 18350 4950 60  0001 C CNN
+F 3 "" H 18350 4950 60  0000 C CNN
+	1    18350 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_94
+U 1 1 00000940
+P 18300 5250
+F 0 "D_94" V 18370 5150 50  0000 R CNN
+F 1 "D" V 18280 5150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 18000 5200 50  0001 C CNN
+F 3 "" H 18000 5200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 18300 5250 50  0001 C CNN "Description"
+F 5 "C81598" H 18300 5250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 18300 5250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 18300 5250 50  0001 C CNN "Manufacturer PN"
+	1    18300 5250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	18500 4900 18750 4900
+Wire Wire Line
+	18300 5100 18300 5150
+Connection ~ 18750 4900
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_95
+U 1 1 00000951
+P 20350 4950
+F 0 "K_95" H 20350 5183 60  0000 C CNN
+F 1 "KEYSW" H 20350 4850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 20350 4950 60  0001 C CNN
+F 3 "" H 20350 4950 60  0000 C CNN
+	1    20350 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_95
+U 1 1 00000950
+P 20300 5250
+F 0 "D_95" V 20370 5150 50  0000 R CNN
+F 1 "D" V 20280 5150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 20000 5200 50  0001 C CNN
+F 3 "" H 20000 5200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 20300 5250 50  0001 C CNN "Description"
+F 5 "C81598" H 20300 5250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 20300 5250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 20300 5250 50  0001 C CNN "Manufacturer PN"
+	1    20300 5250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	20500 4900 20750 4900
+Wire Wire Line
+	20300 5100 20300 5150
+Connection ~ 20750 4900
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_96
+U 1 1 00000961
+P 21350 4950
+F 0 "K_96" H 21350 5183 60  0000 C CNN
+F 1 "KEYSW" H 21350 4850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 21350 4950 60  0001 C CNN
+F 3 "" H 21350 4950 60  0000 C CNN
+	1    21350 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_96
+U 1 1 00000960
+P 21300 5250
+F 0 "D_96" V 21370 5150 50  0000 R CNN
+F 1 "D" V 21280 5150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 21000 5200 50  0001 C CNN
+F 3 "" H 21000 5200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 21300 5250 50  0001 C CNN "Description"
+F 5 "C81598" H 21300 5250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 21300 5250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 21300 5250 50  0001 C CNN "Manufacturer PN"
+	1    21300 5250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	21500 4900 21750 4900
+Wire Wire Line
+	21300 5100 21300 5150
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_97
+U 1 1 00000971
+P 22350 4950
+F 0 "K_97" H 22350 5183 60  0000 C CNN
+F 1 "KEYSW" H 22350 4850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 22350 4950 60  0001 C CNN
+F 3 "" H 22350 4950 60  0000 C CNN
+	1    22350 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_97
+U 1 1 00000970
+P 22300 5250
+F 0 "D_97" V 22370 5150 50  0000 R CNN
+F 1 "D" V 22280 5150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 22000 5200 50  0001 C CNN
+F 3 "" H 22000 5200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 22300 5250 50  0001 C CNN "Description"
+F 5 "C81598" H 22300 5250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 22300 5250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 22300 5250 50  0001 C CNN "Manufacturer PN"
+	1    22300 5250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	22500 4900 22750 4900
+Wire Wire Line
+	22300 5100 22300 5150
+Connection ~ 22750 4900
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_98
+U 1 1 00000981
+P 23350 4950
+F 0 "K_98" H 23350 5183 60  0000 C CNN
+F 1 "KEYSW" H 23350 4850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-2U-NoLED" H 23350 4950 60  0001 C CNN
+F 3 "" H 23350 4950 60  0000 C CNN
+	1    23350 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_98
+U 1 1 00000980
+P 23300 5250
+F 0 "D_98" V 23370 5150 50  0000 R CNN
+F 1 "D" V 23280 5150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 23000 5200 50  0001 C CNN
+F 3 "" H 23000 5200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 23300 5250 50  0001 C CNN "Description"
+F 5 "C81598" H 23300 5250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 23300 5250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 23300 5250 50  0001 C CNN "Manufacturer PN"
+	1    23300 5250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	23500 4900 23750 4900
+Wire Wire Line
+	23300 5100 23300 5150
+Text GLabel 900  6350 0    50   Input ~ 0
+row5
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_99
+U 1 1 00000991
+P 1400 5950
+F 0 "K_99" H 1400 6183 60  0000 C CNN
+F 1 "KEYSW" H 1400 5850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 1400 5950 60  0001 C CNN
+F 3 "" H 1400 5950 60  0000 C CNN
+	1    1400 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_99
+U 1 1 00000990
+P 1350 6250
+F 0 "D_99" V 1420 6150 50  0000 R CNN
+F 1 "D" V 1330 6150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 1050 6200 50  0001 C CNN
+F 3 "" H 1050 6200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 1350 6250 50  0001 C CNN "Description"
+F 5 "C81598" H 1350 6250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 1350 6250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 1350 6250 50  0001 C CNN "Manufacturer PN"
+	1    1350 6250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1550 5900 1800 5900
+Wire Wire Line
+	1350 6100 1350 6150
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_100
+U 1 1 00001001
+P 2400 5950
+F 0 "K_100" H 2400 6183 60  0000 C CNN
+F 1 "KEYSW" H 2400 5850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1.25U-NoLED" H 2400 5950 60  0001 C CNN
+F 3 "" H 2400 5950 60  0000 C CNN
+	1    2400 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_100
+U 1 1 00001000
+P 2350 6250
+F 0 "D_100" V 2420 6150 50  0000 R CNN
+F 1 "D" V 2330 6150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 2050 6200 50  0001 C CNN
+F 3 "" H 2050 6200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 2350 6250 50  0001 C CNN "Description"
+F 5 "C81598" H 2350 6250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 2350 6250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 2350 6250 50  0001 C CNN "Manufacturer PN"
+	1    2350 6250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2550 5900 2800 5900
+Wire Wire Line
+	2350 6100 2350 6150
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_101
+U 1 1 00001011
+P 4400 5950
+F 0 "K_101" H 4400 6183 60  0000 C CNN
+F 1 "KEYSW" H 4400 5850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1.25U-NoLED" H 4400 5950 60  0001 C CNN
+F 3 "" H 4400 5950 60  0000 C CNN
+	1    4400 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_101
+U 1 1 00001010
+P 4350 6250
+F 0 "D_101" V 4420 6150 50  0000 R CNN
+F 1 "D" V 4330 6150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 4050 6200 50  0001 C CNN
+F 3 "" H 4050 6200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 4350 6250 50  0001 C CNN "Description"
+F 5 "C81598" H 4350 6250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 4350 6250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 4350 6250 50  0001 C CNN "Manufacturer PN"
+	1    4350 6250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4550 5900 4800 5900
+Wire Wire Line
+	4350 6100 4350 6150
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_102
+U 1 1 00001021
+P 5400 5950
+F 0 "K_102" H 5400 6183 60  0000 C CNN
+F 1 "KEYSW" H 5400 5850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1.25U-NoLED" H 5400 5950 60  0001 C CNN
+F 3 "" H 5400 5950 60  0000 C CNN
+	1    5400 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_102
+U 1 1 00001020
+P 5350 6250
+F 0 "D_102" V 5420 6150 50  0000 R CNN
+F 1 "D" V 5330 6150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 5050 6200 50  0001 C CNN
+F 3 "" H 5050 6200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 5350 6250 50  0001 C CNN "Description"
+F 5 "C81598" H 5350 6250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 5350 6250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 5350 6250 50  0001 C CNN "Manufacturer PN"
+	1    5350 6250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5550 5900 5800 5900
+Wire Wire Line
+	5350 6100 5350 6150
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_103
+U 1 1 00001031
+P 9400 5950
+F 0 "K_103" H 9400 6183 60  0000 C CNN
+F 1 "KEYSW" H 9400 5850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-6.25U-NoLED" H 9400 5950 60  0001 C CNN
+F 3 "" H 9400 5950 60  0000 C CNN
+	1    9400 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_103
+U 1 1 00001030
+P 9350 6250
+F 0 "D_103" V 9420 6150 50  0000 R CNN
+F 1 "D" V 9330 6150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 9050 6200 50  0001 C CNN
+F 3 "" H 9050 6200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 9350 6250 50  0001 C CNN "Description"
+F 5 "C81598" H 9350 6250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 9350 6250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 9350 6250 50  0001 C CNN "Manufacturer PN"
+	1    9350 6250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9550 5900 9800 5900
+Wire Wire Line
+	9350 6100 9350 6150
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_104
+U 1 1 00001041
+P 12400 5950
+F 0 "K_104" H 12400 6183 60  0000 C CNN
+F 1 "KEYSW" H 12400 5850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1.25U-NoLED" H 12400 5950 60  0001 C CNN
+F 3 "" H 12400 5950 60  0000 C CNN
+	1    12400 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_104
+U 1 1 00001040
+P 12350 6250
+F 0 "D_104" V 12420 6150 50  0000 R CNN
+F 1 "D" V 12330 6150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 12050 6200 50  0001 C CNN
+F 3 "" H 12050 6200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 12350 6250 50  0001 C CNN "Description"
+F 5 "C81598" H 12350 6250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 12350 6250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 12350 6250 50  0001 C CNN "Manufacturer PN"
+	1    12350 6250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12550 5900 12800 5900
+Wire Wire Line
+	12350 6100 12350 6150
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_105
+U 1 1 00001051
+P 14400 5950
+F 0 "K_105" H 14400 6183 60  0000 C CNN
+F 1 "KEYSW" H 14400 5850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1.25U-NoLED" H 14400 5950 60  0001 C CNN
+F 3 "" H 14400 5950 60  0000 C CNN
+	1    14400 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_105
+U 1 1 00001050
+P 14350 6250
+F 0 "D_105" V 14420 6150 50  0000 R CNN
+F 1 "D" V 14330 6150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 14050 6200 50  0001 C CNN
+F 3 "" H 14050 6200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 14350 6250 50  0001 C CNN "Description"
+F 5 "C81598" H 14350 6250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 14350 6250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 14350 6250 50  0001 C CNN "Manufacturer PN"
+	1    14350 6250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	14550 5900 14800 5900
+Wire Wire Line
+	14350 6100 14350 6150
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_106
+U 1 1 00001061
+P 15400 5950
+F 0 "K_106" H 15400 6183 60  0000 C CNN
+F 1 "KEYSW" H 15400 5850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1.25U-NoLED" H 15400 5950 60  0001 C CNN
+F 3 "" H 15400 5950 60  0000 C CNN
+	1    15400 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_106
+U 1 1 00001060
+P 15350 6250
+F 0 "D_106" V 15420 6150 50  0000 R CNN
+F 1 "D" V 15330 6150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 15050 6200 50  0001 C CNN
+F 3 "" H 15050 6200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 15350 6250 50  0001 C CNN "Description"
+F 5 "C81598" H 15350 6250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 15350 6250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 15350 6250 50  0001 C CNN "Manufacturer PN"
+	1    15350 6250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	15550 5900 15800 5900
+Wire Wire Line
+	15350 6100 15350 6150
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_107
+U 1 1 00001071
+P 16400 5950
+F 0 "K_107" H 16400 6183 60  0000 C CNN
+F 1 "KEYSW" H 16400 5850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1.25U-NoLED" H 16400 5950 60  0001 C CNN
+F 3 "" H 16400 5950 60  0000 C CNN
+	1    16400 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_107
+U 1 1 00001070
+P 16350 6250
+F 0 "D_107" V 16420 6150 50  0000 R CNN
+F 1 "D" V 16330 6150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 16050 6200 50  0001 C CNN
+F 3 "" H 16050 6200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 16350 6250 50  0001 C CNN "Description"
+F 5 "C81598" H 16350 6250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 16350 6250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 16350 6250 50  0001 C CNN "Manufacturer PN"
+	1    16350 6250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	16550 5900 16800 5900
+Wire Wire Line
+	16350 6100 16350 6150
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_108
+U 1 1 00001081
+P 17350 5950
+F 0 "K_108" H 17350 6183 60  0000 C CNN
+F 1 "KEYSW" H 17350 5850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 17350 5950 60  0001 C CNN
+F 3 "" H 17350 5950 60  0000 C CNN
+	1    17350 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_108
+U 1 1 00001080
+P 17300 6250
+F 0 "D_108" V 17370 6150 50  0000 R CNN
+F 1 "D" V 17280 6150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 17000 6200 50  0001 C CNN
+F 3 "" H 17000 6200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 17300 6250 50  0001 C CNN "Description"
+F 5 "C81598" H 17300 6250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 17300 6250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 17300 6250 50  0001 C CNN "Manufacturer PN"
+	1    17300 6250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	17500 5900 17750 5900
+Wire Wire Line
+	17300 6100 17300 6150
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_109
+U 1 1 00001091
+P 18350 5950
+F 0 "K_109" H 18350 6183 60  0000 C CNN
+F 1 "KEYSW" H 18350 5850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 18350 5950 60  0001 C CNN
+F 3 "" H 18350 5950 60  0000 C CNN
+	1    18350 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_109
+U 1 1 00001090
+P 18300 6250
+F 0 "D_109" V 18370 6150 50  0000 R CNN
+F 1 "D" V 18280 6150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 18000 6200 50  0001 C CNN
+F 3 "" H 18000 6200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 18300 6250 50  0001 C CNN "Description"
+F 5 "C81598" H 18300 6250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 18300 6250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 18300 6250 50  0001 C CNN "Manufacturer PN"
+	1    18300 6250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	18500 5900 18750 5900
+Wire Wire Line
+	18300 6100 18300 6150
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_110
+U 1 1 00001101
+P 19350 5950
+F 0 "K_110" H 19350 6183 60  0000 C CNN
+F 1 "KEYSW" H 19350 5850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 19350 5950 60  0001 C CNN
+F 3 "" H 19350 5950 60  0000 C CNN
+	1    19350 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_110
+U 1 1 00001100
+P 19300 6250
+F 0 "D_110" V 19370 6150 50  0000 R CNN
+F 1 "D" V 19280 6150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 19000 6200 50  0001 C CNN
+F 3 "" H 19000 6200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 19300 6250 50  0001 C CNN "Description"
+F 5 "C81598" H 19300 6250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 19300 6250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 19300 6250 50  0001 C CNN "Manufacturer PN"
+	1    19300 6250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	19500 5900 19750 5900
+Wire Wire Line
+	19300 6100 19300 6150
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_111
+U 1 1 00001111
+P 20350 5950
+F 0 "K_111" H 20350 6183 60  0000 C CNN
+F 1 "KEYSW" H 20350 5850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-2U-NoLED" H 20350 5950 60  0001 C CNN
+F 3 "" H 20350 5950 60  0000 C CNN
+	1    20350 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_111
+U 1 1 00001110
+P 20300 6250
+F 0 "D_111" V 20370 6150 50  0000 R CNN
+F 1 "D" V 20280 6150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 20000 6200 50  0001 C CNN
+F 3 "" H 20000 6200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 20300 6250 50  0001 C CNN "Description"
+F 5 "C81598" H 20300 6250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 20300 6250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 20300 6250 50  0001 C CNN "Manufacturer PN"
+	1    20300 6250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	20500 5900 20750 5900
+Wire Wire Line
+	20300 6100 20300 6150
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_112
+U 1 1 00001121
+P 22350 5950
+F 0 "K_112" H 22350 6183 60  0000 C CNN
+F 1 "KEYSW" H 22350 5850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 22350 5950 60  0001 C CNN
+F 3 "" H 22350 5950 60  0000 C CNN
+	1    22350 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:D_Small-Device D_112
+U 1 1 00001120
+P 22300 6250
+F 0 "D_112" V 22370 6150 50  0000 R CNN
+F 1 "D" V 22280 6150 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 22000 6200 50  0001 C CNN
+F 3 "" H 22000 6200 50  0001 C CNN
+F 4 "75V 150mA 1.25V @ 150mA 4ns SOD-123 Switching Diode RoHS" H 22300 6250 50  0001 C CNN "Description"
+F 5 "C81598" H 22300 6250 50  0001 C CNN "LCSC"
+F 6 "Semtech" H 22300 6250 50  0001 C CNN "Manufacturer"
+F 7 "1N4148W" H 22300 6250 50  0001 C CNN "Manufacturer PN"
+	1    22300 6250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	22500 5900 22750 5900
+Wire Wire Line
+	22300 6100 22300 6150
+Wire Wire Line
+	1800 5900 1800 4900
+Wire Wire Line
+	2800 5900 2800 4900
+Wire Wire Line
+	3800 3900 3800 2900
+Wire Wire Line
+	4800 5900 4800 4900
+Wire Wire Line
+	5800 5900 5800 4900
+Wire Wire Line
+	6800 4900 6800 3900
+Wire Wire Line
+	7800 4900 7800 3900
+Wire Wire Line
+	8800 4900 8800 3900
+Wire Wire Line
+	9800 5900 9800 4900
+Wire Wire Line
+	10800 4900 10800 3900
+Wire Wire Line
+	11800 4900 11800 3900
+Wire Wire Line
+	12800 5900 12800 4900
+Wire Wire Line
+	13800 4900 13800 3900
+Wire Wire Line
+	14800 5900 14800 4900
+Wire Wire Line
+	15800 5900 15800 4900
+Wire Wire Line
+	16800 5900 16800 2900
+Wire Wire Line
+	17750 5900 17750 2900
+Wire Wire Line
+	18750 5900 18750 4900
+Wire Wire Line
+	19750 5900 19750 2900
+Wire Wire Line
+	20750 5900 20750 4900
+Wire Wire Line
+	21750 4900 21750 3900
+Wire Wire Line
+	22750 5900 22750 4900
+Wire Wire Line
+	23750 4900 23750 2900
+Wire Wire Line
+	1800 2900 1800 1900
+Wire Wire Line
+	3800 2900 3800 1900
+Wire Wire Line
+	4800 2900 4800 1900
+Wire Wire Line
+	5800 2900 5800 1900
+Wire Wire Line
+	6800 2900 6800 1900
+Wire Wire Line
+	7800 2900 7800 1900
+Wire Wire Line
+	8800 2900 8800 1900
+Wire Wire Line
+	9800 2900 9800 1900
+Wire Wire Line
+	10800 2900 10800 1900
+Wire Wire Line
+	11800 2900 11800 1900
+Wire Wire Line
+	12800 2900 12800 1900
+Wire Wire Line
+	13800 2900 13800 1900
+Wire Wire Line
+	14800 2900 14800 1900
+Wire Wire Line
+	16800 2900 16800 1900
+Wire Wire Line
+	17750 2900 17750 1900
+Wire Wire Line
+	18750 2900 18750 1900
+Wire Wire Line
+	19750 2900 19750 1900
+Wire Wire Line
+	20750 2900 20750 1900
+Wire Wire Line
+	21750 2900 21750 1900
+Wire Wire Line
+	22750 2900 22750 1900
+Wire Wire Line
+	23750 2900 23750 1900
+Wire Wire Line
+	1800 3900 1800 2900
+Wire Wire Line
+	4800 3900 4800 2900
+Wire Wire Line
+	5800 3900 5800 2900
+Wire Wire Line
+	6800 3900 6800 2900
+Wire Wire Line
+	7800 3900 7800 2900
+Wire Wire Line
+	8800 3900 8800 2900
+Wire Wire Line
+	9800 3900 9800 2900
+Wire Wire Line
+	10800 3900 10800 2900
+Wire Wire Line
+	11800 3900 11800 2900
+Wire Wire Line
+	12800 3900 12800 2900
+Wire Wire Line
+	13800 3900 13800 2900
+Wire Wire Line
+	14800 3900 14800 2900
+Wire Wire Line
+	15800 3900 15800 2900
+Wire Wire Line
+	20750 3900 20750 2900
+Wire Wire Line
+	21750 3900 21750 2900
+Wire Wire Line
+	22750 3900 22750 2900
+Wire Wire Line
+	1800 4900 1800 3900
+Wire Wire Line
+	2800 4900 2800 1900
+Wire Wire Line
+	4800 4900 4800 3900
+Wire Wire Line
+	5800 4900 5800 3900
+Wire Wire Line
+	9800 4900 9800 3900
+Wire Wire Line
+	12800 4900 12800 3900
+Wire Wire Line
+	14800 4900 14800 3900
+Wire Wire Line
+	15800 4900 15800 3900
+Wire Wire Line
+	18750 4900 18750 2900
+Wire Wire Line
+	20750 4900 20750 3900
+Wire Wire Line
+	22750 4900 22750 3900
+Wire Wire Line
+	1800 650  1800 1900
+Wire Wire Line
+	3800 650  3800 1900
+Wire Wire Line
+	8800 650  8800 1900
+Wire Wire Line
+	23750 650  23750 1900
+Wire Wire Line
+	900  6350 1350 6350
+Wire Wire Line
+	900  2350 1350 2350
+Wire Wire Line
+	900  3350 1350 3350
+Wire Wire Line
+	900  4350 1350 4350
+Wire Wire Line
+	900  5350 1350 5350
+Connection ~ 1350 2350
+Wire Wire Line
+	1350 2350 2350 2350
+Connection ~ 1350 3350
+Wire Wire Line
+	1350 3350 3350 3350
+Connection ~ 1350 4350
+Wire Wire Line
+	1350 4350 3350 4350
+Connection ~ 1350 5350
+Wire Wire Line
+	1350 5350 2350 5350
+Connection ~ 1350 6350
+Wire Wire Line
+	1350 6350 2350 6350
+Connection ~ 2350 2350
+Wire Wire Line
+	2350 2350 3350 2350
+Connection ~ 2350 5350
+Wire Wire Line
+	2350 5350 4350 5350
+Connection ~ 2350 6350
+Wire Wire Line
+	2350 6350 4350 6350
+Connection ~ 3350 2350
+Wire Wire Line
+	3350 2350 4350 2350
+Connection ~ 3350 3350
+Wire Wire Line
+	3350 3350 4350 3350
+Connection ~ 3350 4350
+Wire Wire Line
+	3350 4350 4350 4350
+Connection ~ 4350 2350
+Wire Wire Line
+	4350 2350 5350 2350
+Connection ~ 4350 3350
+Wire Wire Line
+	4350 3350 5350 3350
+Connection ~ 4350 4350
+Wire Wire Line
+	4350 4350 5350 4350
+Connection ~ 4350 5350
+Wire Wire Line
+	4350 5350 5350 5350
+Connection ~ 4350 6350
+Wire Wire Line
+	4350 6350 5350 6350
+Connection ~ 5350 2350
+Wire Wire Line
+	5350 2350 6350 2350
+Connection ~ 5350 3350
+Wire Wire Line
+	5350 3350 6350 3350
+Connection ~ 5350 4350
+Wire Wire Line
+	5350 4350 6350 4350
+Connection ~ 5350 5350
+Wire Wire Line
+	5350 5350 6350 5350
+Connection ~ 5350 6350
+Wire Wire Line
+	5350 6350 9350 6350
+Connection ~ 6350 2350
+Wire Wire Line
+	6350 2350 7350 2350
+Connection ~ 6350 3350
+Wire Wire Line
+	6350 3350 7350 3350
+Connection ~ 6350 4350
+Wire Wire Line
+	6350 4350 7350 4350
+Connection ~ 6350 5350
+Wire Wire Line
+	6350 5350 7350 5350
+Connection ~ 7350 2350
+Wire Wire Line
+	7350 2350 8350 2350
+Connection ~ 7350 3350
+Wire Wire Line
+	7350 3350 8350 3350
+Connection ~ 7350 4350
+Wire Wire Line
+	7350 4350 8350 4350
+Connection ~ 7350 5350
+Wire Wire Line
+	7350 5350 8350 5350
+Connection ~ 8350 2350
+Wire Wire Line
+	8350 2350 9350 2350
+Connection ~ 8350 3350
+Wire Wire Line
+	8350 3350 9350 3350
+Connection ~ 8350 4350
+Wire Wire Line
+	8350 4350 9350 4350
+Connection ~ 8350 5350
+Wire Wire Line
+	8350 5350 9350 5350
+Connection ~ 9350 2350
+Wire Wire Line
+	9350 2350 10350 2350
+Connection ~ 9350 3350
+Wire Wire Line
+	9350 3350 10350 3350
+Connection ~ 9350 4350
+Wire Wire Line
+	9350 4350 10350 4350
+Connection ~ 9350 5350
+Wire Wire Line
+	9350 5350 10350 5350
+Connection ~ 9350 6350
+Wire Wire Line
+	9350 6350 12350 6350
+Connection ~ 10350 2350
+Wire Wire Line
+	10350 2350 11350 2350
+Connection ~ 10350 3350
+Wire Wire Line
+	10350 3350 11350 3350
+Connection ~ 10350 4350
+Wire Wire Line
+	10350 4350 11350 4350
+Connection ~ 10350 5350
+Wire Wire Line
+	10350 5350 11350 5350
+Connection ~ 11350 2350
+Wire Wire Line
+	11350 2350 12350 2350
+Connection ~ 11350 3350
+Wire Wire Line
+	11350 3350 12350 3350
+Connection ~ 11350 4350
+Wire Wire Line
+	11350 4350 12350 4350
+Connection ~ 11350 5350
+Wire Wire Line
+	11350 5350 12350 5350
+Connection ~ 12350 2350
+Wire Wire Line
+	12350 2350 13350 2350
+Connection ~ 12350 3350
+Wire Wire Line
+	12350 3350 13350 3350
+Connection ~ 12350 4350
+Wire Wire Line
+	12350 4350 13350 4350
+Connection ~ 12350 5350
+Wire Wire Line
+	12350 5350 13350 5350
+Connection ~ 12350 6350
+Wire Wire Line
+	12350 6350 14350 6350
+Connection ~ 13350 2350
+Wire Wire Line
+	13350 2350 14350 2350
+Connection ~ 13350 3350
+Wire Wire Line
+	13350 3350 14350 3350
+Connection ~ 13350 4350
+Connection ~ 13350 5350
+Connection ~ 14350 2350
+Connection ~ 14350 3350
+Connection ~ 14350 4350
+Wire Wire Line
+	14350 4350 15350 4350
+Connection ~ 14350 5350
+Wire Wire Line
+	14350 5350 15350 5350
+Connection ~ 14350 6350
+Connection ~ 15350 3350
+Wire Wire Line
+	15350 3350 16350 3350
+Connection ~ 15350 4350
+Connection ~ 15350 5350
+Connection ~ 15350 6350
+Wire Wire Line
+	15350 6350 16350 6350
+Connection ~ 16350 2350
+Connection ~ 16350 3350
+Connection ~ 16350 6350
+Connection ~ 17300 2350
+Wire Wire Line
+	17300 2350 18300 2350
+Connection ~ 17300 3350
+Wire Wire Line
+	17300 3350 18300 3350
+Connection ~ 17300 6350
+Wire Wire Line
+	17300 6350 18300 6350
+Connection ~ 18300 2350
+Wire Wire Line
+	18300 2350 19300 2350
+Connection ~ 18300 3350
+Wire Wire Line
+	18300 3350 19300 3350
+Connection ~ 18300 5350
+Wire Wire Line
+	18300 5350 20300 5350
+Connection ~ 18300 6350
+Wire Wire Line
+	18300 6350 19300 6350
+Connection ~ 19300 2350
+Wire Wire Line
+	19300 2350 20300 2350
+Connection ~ 19300 3350
+Wire Wire Line
+	19300 3350 20300 3350
+Connection ~ 19300 6350
+Wire Wire Line
+	19300 6350 20300 6350
+Connection ~ 20300 2350
+Wire Wire Line
+	20300 2350 21300 2350
+Connection ~ 20300 3350
+Wire Wire Line
+	20300 3350 21300 3350
+Connection ~ 20300 4350
+Wire Wire Line
+	20300 4350 21300 4350
+Connection ~ 20300 5350
+Wire Wire Line
+	20300 5350 21300 5350
+Connection ~ 20300 6350
+Wire Wire Line
+	20300 6350 22300 6350
+Connection ~ 21300 2350
+Wire Wire Line
+	21300 2350 22300 2350
+Connection ~ 21300 3350
+Wire Wire Line
+	21300 3350 22300 3350
+Connection ~ 21300 4350
+Wire Wire Line
+	21300 4350 22300 4350
+Connection ~ 21300 5350
+Wire Wire Line
+	21300 5350 22300 5350
+Connection ~ 22300 2350
+Wire Wire Line
+	22300 2350 23300 2350
+Connection ~ 22300 3350
+Wire Wire Line
+	22300 3350 23300 3350
+Connection ~ 22300 5350
+Wire Wire Line
+	22300 5350 23300 5350
+Wire Wire Line
+	2800 950  2800 1900
+Wire Wire Line
+	4800 950  4800 1900
+Wire Wire Line
+	5800 950  5800 1900
+Wire Wire Line
+	6800 950  6800 1900
+Wire Wire Line
+	7800 950  7800 1900
+Wire Wire Line
+	9800 950  9800 1900
+Wire Wire Line
+	10800 950  10800 1900
+Wire Wire Line
+	11800 950  11800 1900
+Wire Wire Line
+	12800 950  12800 1900
+Wire Wire Line
+	13800 950  13800 1900
+Wire Wire Line
+	14800 950  14800 1900
+Wire Wire Line
+	15800 950  15800 2900
+Wire Wire Line
+	16800 950  16800 1900
+Wire Wire Line
+	17750 950  17750 1900
+Wire Wire Line
+	18750 950  18750 1900
+Wire Wire Line
+	19750 950  19750 1900
+Wire Wire Line
+	20750 950  20750 1900
+Wire Wire Line
+	21750 950  21750 1900
+Wire Wire Line
+	22750 950  22750 1900
+Wire Wire Line
+	2800 650  2800 950 
+Wire Wire Line
+	4800 650  4800 950 
+Wire Wire Line
+	5800 650  5800 950 
+Wire Wire Line
+	6800 650  6800 950 
+Wire Wire Line
+	7800 650  7800 950 
+Wire Wire Line
+	9800 650  9800 950 
+Wire Wire Line
+	10800 650  10800 950 
+Wire Wire Line
+	11800 650  11800 950 
+Wire Wire Line
+	12800 650  12800 950 
+Wire Wire Line
+	13800 650  13800 950 
+Wire Wire Line
+	14800 650  14800 950 
+Wire Wire Line
+	15800 650  15800 950 
+Wire Wire Line
+	16800 650  16800 950 
+Wire Wire Line
+	17750 650  17750 950 
+Wire Wire Line
+	18750 650  18750 950 
+Wire Wire Line
+	19750 650  19750 950 
+Wire Wire Line
+	20750 650  20750 950 
+Wire Wire Line
+	21750 650  21750 950 
+Wire Wire Line
+	22750 650  22750 950 
+Wire Wire Line
+	2350 1400 4350 1400
+Connection ~ 4350 1400
+Wire Wire Line
+	4350 1400 5350 1400
+Connection ~ 5350 1400
+Wire Wire Line
+	5350 1400 6350 1400
+Connection ~ 6350 1400
+Wire Wire Line
+	6350 1400 7350 1400
+Connection ~ 7350 1400
+Wire Wire Line
+	7350 1400 9350 1400
+Connection ~ 9350 1400
+Wire Wire Line
+	9350 1400 10350 1400
+Connection ~ 10350 1400
+Wire Wire Line
+	10350 1400 11350 1400
+Connection ~ 11350 1400
+Wire Wire Line
+	11350 1400 12350 1400
+Connection ~ 12350 1400
+Wire Wire Line
+	12350 1400 13350 1400
+Connection ~ 13350 1400
+Wire Wire Line
+	13350 1400 14350 1400
+Connection ~ 14350 1400
+Wire Wire Line
+	14350 1400 15350 1400
+Connection ~ 15350 1400
+Wire Wire Line
+	15350 1400 16350 1400
+Connection ~ 16350 1400
+Wire Wire Line
+	16350 1400 17300 1400
+Connection ~ 17300 1400
+Wire Wire Line
+	17300 1400 18300 1400
+Connection ~ 18300 1400
+Wire Wire Line
+	18300 1400 19300 1400
+Connection ~ 19300 1400
+Wire Wire Line
+	19300 1400 20300 1400
+Connection ~ 20300 1400
+Wire Wire Line
+	20300 1400 21300 1400
+Connection ~ 21300 1400
+Wire Wire Line
+	21300 1400 22300 1400
+Wire Wire Line
+	15350 4350 20300 4350
+Wire Wire Line
+	15350 5350 18300 5350
+Wire Wire Line
+	16350 2350 17300 2350
+Wire Wire Line
+	16350 3350 17300 3350
+Wire Wire Line
+	16350 6350 17300 6350
+Connection ~ 2350 1400
+Wire Wire Line
+	900  1400 2350 1400
+Wire Wire Line
+	14300 4350 14350 4350
+Wire Wire Line
+	14300 5350 14350 5350
+Wire Wire Line
+	15300 2350 16350 2350
+Wire Wire Line
+	15300 3350 15350 3350
+Wire Wire Line
+	15300 6350 15350 6350
+Wire Wire Line
+	13350 4350 14350 4350
+Wire Wire Line
+	13350 5350 14350 5350
+Wire Wire Line
+	14350 2350 16350 2350
+Wire Wire Line
+	14350 3350 15350 3350
+Wire Wire Line
+	14350 6350 15350 6350
+Wire Wire Line
+	12720 8580 12960 8580
+Wire Wire Line
+	12720 8480 12960 8480
+Wire Wire Line
+	12960 8380 12720 8380
+Wire Wire Line
+	12960 8280 12720 8280
+Wire Wire Line
+	12720 8180 12960 8180
+Wire Wire Line
+	12960 8080 12720 8080
+Wire Wire Line
+	12960 7980 12720 7980
+Wire Wire Line
+	12720 7880 12960 7880
+Wire Wire Line
+	12720 7780 12960 7780
+$Sheet
+S 12960 7730 750  5650
+U 60AC69AE
+F0 "ledmatrix" 50
+F1 "ledmatrix.sch" 50
+F2 "LD1_SW1" B L 12960 7780 50 
+F3 "LD1_SW2" B L 12960 7880 50 
+F4 "LD1_SW3" B L 12960 7980 50 
+F5 "LD1_SW4" B L 12960 8080 50 
+F6 "LD1_SW5" B L 12960 8180 50 
+F7 "LD1_SW6" B L 12960 8280 50 
+F8 "LD1_SW7" B L 12960 8380 50 
+F9 "LD1_SW8" B L 12960 8480 50 
+F10 "LD1_SW9" B L 12960 8580 50 
+F11 "LD1_SW10" B L 12960 8680 50 
+F12 "LD1_SW11" B L 12960 8780 50 
+F13 "LD1_SW12" B L 12960 8880 50 
+F14 "LD1_CS1" B L 12960 8980 50 
+F15 "LD1_CS2" B L 12960 9080 50 
+F16 "LD1_CS3" B L 12960 9180 50 
+F17 "LD1_CS4" B L 12960 9280 50 
+F18 "LD1_CS5" B L 12960 9380 50 
+F19 "LD1_CS6" B L 12960 9480 50 
+F20 "LD1_CS7" B L 12960 9580 50 
+F21 "LD1_CS8" B L 12960 9680 50 
+F22 "LD1_CS9" B L 12960 9780 50 
+F23 "LD1_CS10" B L 12960 9880 50 
+F24 "LD1_CS11" B L 12960 9980 50 
+F25 "LD1_CS12" B L 12960 10080 50 
+F26 "LD1_CS13" B L 12960 10180 50 
+F27 "LD1_CS14" B L 12960 10280 50 
+F28 "LD1_CS15" B L 12960 10380 50 
+F29 "LD1_CS16" B L 12960 10480 50 
+F30 "LD2_SW1" B L 12960 10580 50 
+F31 "LD2_SW2" B L 12960 10680 50 
+F32 "LD2_SW3" B L 12960 10780 50 
+F33 "LD2_SW4" B L 12960 10880 50 
+F34 "LD2_SW5" B L 12960 10980 50 
+F35 "LD2_SW6" B L 12960 11080 50 
+F36 "LD2_SW7" B L 12960 11180 50 
+F37 "LD2_SW8" B L 12960 11280 50 
+F38 "LD2_SW9" B L 12960 11380 50 
+F39 "LD2_SW10" B L 12960 11480 50 
+F40 "LD2_SW11" B L 12960 11580 50 
+F41 "LD2_SW12" B L 12960 11680 50 
+F42 "LD2_CS1" B L 12960 11780 50 
+F43 "LD2_CS2" B L 12960 11880 50 
+F44 "LD2_CS3" B L 12960 11980 50 
+F45 "LD2_CS4" B L 12960 12080 50 
+F46 "LD2_CS5" B L 12960 12180 50 
+F47 "LD2_CS6" B L 12960 12280 50 
+F48 "LD2_CS7" B L 12960 12380 50 
+F49 "LD2_CS8" B L 12960 12480 50 
+F50 "LD2_CS9" B L 12960 12580 50 
+F51 "LD2_CS10" B L 12960 12680 50 
+F52 "LD2_CS11" B L 12960 12780 50 
+F53 "LD2_CS12" B L 12960 12880 50 
+F54 "LD2_CS13" B L 12960 12980 50 
+F55 "LD2_CS14" B L 12960 13080 50 
+F56 "LD2_CS15" B L 12960 13180 50 
+F57 "LD2_CS16" B L 12960 13280 50 
+$EndSheet
+Wire Wire Line
+	12720 8680 12960 8680
+Wire Wire Line
+	12720 8780 12960 8780
+Wire Wire Line
+	12720 8880 12960 8880
+Wire Wire Line
+	12720 8980 12960 8980
+Wire Wire Line
+	12720 9080 12960 9080
+Wire Wire Line
+	12960 9180 12720 9180
+Wire Wire Line
+	12960 9280 12720 9280
+Wire Wire Line
+	12720 9380 12960 9380
+Wire Wire Line
+	12720 9480 12960 9480
+Wire Wire Line
+	12720 9580 12960 9580
+Wire Wire Line
+	12720 9680 12960 9680
+Wire Wire Line
+	12720 9780 12960 9780
+Wire Wire Line
+	12720 9880 12960 9880
+Wire Wire Line
+	12720 9980 12960 9980
+Wire Wire Line
+	12720 10080 12960 10080
+Wire Wire Line
+	12720 10180 12960 10180
+Wire Wire Line
+	12720 10280 12960 10280
+Wire Wire Line
+	12720 10380 12960 10380
+Wire Wire Line
+	12720 10480 12960 10480
+Wire Wire Line
+	12720 10580 12960 10580
+Wire Wire Line
+	12720 10680 12960 10680
+Wire Wire Line
+	12720 10780 12960 10780
+Wire Wire Line
+	12720 10880 12960 10880
+Wire Wire Line
+	12720 10980 12960 10980
+Wire Wire Line
+	12720 11080 12960 11080
+Wire Wire Line
+	12720 11180 12960 11180
+Wire Wire Line
+	12720 11280 12960 11280
+Wire Wire Line
+	12720 11380 12960 11380
+Wire Wire Line
+	12720 11480 12960 11480
+Wire Wire Line
+	12720 11580 12960 11580
+Wire Wire Line
+	12720 11680 12960 11680
+Wire Wire Line
+	12720 11780 12960 11780
+Wire Wire Line
+	12720 11880 12960 11880
+Wire Wire Line
+	12720 11980 12960 11980
+Wire Wire Line
+	12720 12080 12960 12080
+Wire Wire Line
+	12720 12180 12960 12180
+Wire Wire Line
+	12720 12280 12960 12280
+Wire Wire Line
+	12720 12380 12960 12380
+Wire Wire Line
+	12720 12480 12960 12480
+Wire Wire Line
+	12720 12580 12960 12580
+Wire Wire Line
+	12720 12680 12960 12680
+Wire Wire Line
+	12720 12780 12960 12780
+Wire Wire Line
+	12720 12880 12960 12880
+Wire Wire Line
+	12720 12980 12960 12980
+Wire Wire Line
+	12720 13080 12960 13080
+Wire Wire Line
+	12720 13180 12960 13180
+Wire Wire Line
+	12720 13280 12960 13280
+$Sheet
+S 10250 7000 2470 7490
+U 609AD809
+F0 "mcu" 50
+F1 "mcu.sch" 50
+F2 "LD2_SW1" B R 12720 10580 50 
+F3 "LD2_SW2" B R 12720 10680 50 
+F4 "LD2_SW3" B R 12720 10780 50 
+F5 "LD2_SW4" B R 12720 10880 50 
+F6 "LD2_SW5" B R 12720 10980 50 
+F7 "LD2_SW6" B R 12720 11080 50 
+F8 "LD2_SW7" B R 12720 11180 50 
+F9 "LD2_SW8" B R 12720 11280 50 
+F10 "LD2_SW9" B R 12720 11380 50 
+F11 "LD2_SW10" B R 12720 11480 50 
+F12 "LD2_SW11" B R 12720 11580 50 
+F13 "LD2_SW12" B R 12720 11680 50 
+F14 "LD2_CS1" B R 12720 11780 50 
+F15 "LD2_CS2" B R 12720 11880 50 
+F16 "LD2_CS3" B R 12720 11980 50 
+F17 "LD2_CS4" B R 12720 12080 50 
+F18 "LD2_CS5" B R 12720 12180 50 
+F19 "LD2_CS6" B R 12720 12280 50 
+F20 "LD2_CS7" B R 12720 12380 50 
+F21 "LD2_CS8" B R 12720 12480 50 
+F22 "LD2_CS9" B R 12720 12580 50 
+F23 "LD2_CS10" B R 12720 12680 50 
+F24 "LD2_CS11" B R 12720 12780 50 
+F25 "LD2_CS12" B R 12720 12880 50 
+F26 "LD2_CS13" B R 12720 12980 50 
+F27 "LD2_CS14" B R 12720 13080 50 
+F28 "LD2_CS15" B R 12720 13180 50 
+F29 "LD2_CS16" B R 12720 13280 50 
+F30 "PC0" B L 10250 9650 50 
+F31 "PC1" B L 10250 9750 50 
+F32 "PC2" B L 10250 9850 50 
+F33 "PC3" B L 10250 9950 50 
+F34 "PC4" B L 10250 10050 50 
+F35 "PC5" B L 10250 10150 50 
+F36 "PC6" B L 10250 10250 50 
+F37 "PC7" B L 10250 10350 50 
+F38 "PC9" B L 10250 10550 50 
+F39 "PC11" B L 10250 10750 50 
+F40 "PC12" B L 10250 10850 50 
+F41 "PC13" B L 10250 10950 50 
+F42 "PC14" B L 10250 11050 50 
+F43 "PC15" B L 10250 11150 50 
+F44 "PA0" B L 10250 7050 50 
+F45 "PA1" B L 10250 7150 50 
+F46 "PA2" B L 10250 7250 50 
+F47 "PA5" B L 10250 7550 50 
+F48 "PA6" B L 10250 7650 50 
+F49 "PA7" B L 10250 7750 50 
+F50 "PA8" B L 10250 7850 50 
+F51 "PA11" B L 10250 8050 50 
+F52 "PA13" B L 10250 8250 50 
+F53 "PA14" B L 10250 8350 50 
+F54 "PB1" B L 10250 8700 50 
+F55 "PB2" B L 10250 8800 50 
+F56 "PB3" B L 10250 8900 50 
+F57 "PB14" B L 10250 9400 50 
+F58 "PB13" B L 10250 9300 50 
+F59 "PA12" B L 10250 8150 50 
+F60 "LD1_CS16" B R 12720 10480 50 
+F61 "LD1_CS15" B R 12720 10380 50 
+F62 "LD1_CS14" B R 12720 10280 50 
+F63 "LD1_CS13" B R 12720 10180 50 
+F64 "LD1_CS12" B R 12720 10080 50 
+F65 "LD1_CS11" B R 12720 9980 50 
+F66 "LD1_CS10" B R 12720 9880 50 
+F67 "LD1_CS9" B R 12720 9780 50 
+F68 "LD1_CS8" B R 12720 9680 50 
+F69 "LD1_CS7" B R 12720 9580 50 
+F70 "LD1_CS6" B R 12720 9480 50 
+F71 "LD1_CS5" B R 12720 9380 50 
+F72 "LD1_CS4" B R 12720 9280 50 
+F73 "LD1_CS3" B R 12720 9180 50 
+F74 "LD1_CS2" B R 12720 9080 50 
+F75 "LD1_CS1" B R 12720 8980 50 
+F76 "LD1_SW12" B R 12720 8880 50 
+F77 "LD1_SW11" B R 12720 8780 50 
+F78 "LD1_SW10" B R 12720 8680 50 
+F79 "LD1_SW9" B R 12720 8580 50 
+F80 "LD1_SW8" B R 12720 8480 50 
+F81 "LD1_SW7" B R 12720 8380 50 
+F82 "LD1_SW6" B R 12720 8280 50 
+F83 "LD1_SW5" B R 12720 8180 50 
+F84 "LD1_SW4" B R 12720 8080 50 
+F85 "LD1_SW3" B R 12720 7980 50 
+F86 "LD1_SW2" B R 12720 7880 50 
+F87 "LD1_SW1" B R 12720 7780 50 
+F88 "PA3" B L 10250 7350 50 
+F89 "PA4" B L 10250 7450 50 
+F90 "PA15" B L 10250 8450 50 
+F91 "PB0" B L 10250 8600 50 
+F92 "PB4" B L 10250 9000 50 
+F93 "PB5" B L 10250 9100 50 
+F94 "PB8" B L 10250 9200 50 
+F95 "PB15" B L 10250 9500 50 
+F96 "PC8" B L 10250 10450 50 
+F97 "PC10" B L 10250 10650 50 
+F98 "PE0" B L 10250 12950 50 
+F99 "PE1" B L 10250 13050 50 
+F100 "PE2" B L 10250 13150 50 
+F101 "PE3" B L 10250 13250 50 
+F102 "PE4" B L 10250 13350 50 
+F103 "PE5" B L 10250 13450 50 
+F104 "PE6" B L 10250 13550 50 
+F105 "PE7" B L 10250 13650 50 
+F106 "PE8" B L 10250 13750 50 
+F107 "PE9" B L 10250 13850 50 
+F108 "PE10" B L 10250 13950 50 
+F109 "PE11" B L 10250 14050 50 
+F110 "PE12" B L 10250 14150 50 
+F111 "PE13" B L 10250 14250 50 
+F112 "PE14" B L 10250 14350 50 
+F113 "PE15" B L 10250 14450 50 
+F114 "PD0" B L 10250 11300 50 
+F115 "PD1" B L 10250 11400 50 
+F116 "PD2" B L 10250 11500 50 
+F117 "PD3" B L 10250 11600 50 
+F118 "PD4" B L 10250 11700 50 
+F119 "PD5" B L 10250 11800 50 
+F120 "PD7" B L 10250 12000 50 
+F121 "PD8" B L 10250 12100 50 
+F122 "PD9" B L 10250 12200 50 
+F123 "PD10" B L 10250 12300 50 
+F124 "PD11" B L 10250 12400 50 
+F125 "PD12" B L 10250 12500 50 
+F126 "PD13" B L 10250 12600 50 
+F127 "PD14" B L 10250 12700 50 
+F128 "PD15" B L 10250 12800 50 
+F129 "PD6" B L 10250 11900 50 
+$EndSheet
+Text GLabel 10250 11400 0    50   Input ~ 0
+row0
+Text GLabel 10250 11500 0    50   Input ~ 0
+row1
+Text GLabel 10250 11600 0    50   Input ~ 0
+row2
+Text GLabel 10250 11700 0    50   Input ~ 0
+row3
+Text GLabel 10250 11800 0    50   Input ~ 0
+row4
+Text GLabel 10250 11900 0    50   Input ~ 0
+row5
+Text GLabel 10250 9300 0    50   Input ~ 0
+col0
+Text GLabel 10250 9400 0    50   Input ~ 0
+col1
+Text GLabel 10250 9500 0    50   Input ~ 0
+col2
+Text GLabel 10250 12100 0    50   Input ~ 0
+col3
+Text GLabel 10250 12200 0    50   Input ~ 0
+col4
+Text GLabel 10250 12300 0    50   Input ~ 0
+col5
+Text GLabel 10250 12400 0    50   Input ~ 0
+col6
+Text GLabel 10250 12500 0    50   Input ~ 0
+col7
+Text GLabel 10250 12600 0    50   Input ~ 0
+col8
+Text GLabel 10250 12700 0    50   Input ~ 0
+col9
+Text GLabel 10250 12800 0    50   Input ~ 0
+col10
+Text GLabel 10250 10250 0    50   Input ~ 0
+col11
+Text GLabel 10250 10350 0    50   Input ~ 0
+col12
+Text GLabel 10250 10450 0    50   Input ~ 0
+col13
+Text GLabel 10250 10550 0    50   Input ~ 0
+col14
+Text GLabel 10250 10650 0    50   Input ~ 0
+col15
+Text GLabel 10250 10750 0    50   Input ~ 0
+col16
+Text GLabel 10250 10850 0    50   Input ~ 0
+col17
+Text GLabel 10250 10950 0    50   Input ~ 0
+col18
+Text GLabel 10250 11050 0    50   Input ~ 0
+col19
+Text GLabel 10250 11150 0    50   Input ~ 0
+col20
+Text GLabel 10250 9000 0    50   Input ~ 0
+col21
+Text GLabel 10250 9100 0    50   Input ~ 0
+col22
+$Comp
+L keyboard-rescue:MountingHole_Pad-Mechanical H4
+U 1 1 63860CD0
+P 18600 8500
+F 0 "H4" V 18554 8650 50  0000 L CNN
+F 1 "MountingHole_Pad" V 18645 8650 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 18600 8500 50  0001 C CNN
+F 3 "" H 18600 8500 50  0001 C CNN
+	1    18600 8500
+	0    1    1    0   
+$EndComp
+$Comp
+L keyboard-rescue:MountingHole_Pad-Mechanical H1
+U 1 1 63862092
+P 18600 7900
+F 0 "H1" V 18554 8050 50  0000 L CNN
+F 1 "MountingHole_Pad" V 18645 8050 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 18600 7900 50  0001 C CNN
+F 3 "" H 18600 7900 50  0001 C CNN
+	1    18600 7900
+	0    1    1    0   
+$EndComp
+$Comp
+L keyboard-rescue:MountingHole_Pad-Mechanical H2
+U 1 1 63862406
+P 18600 8100
+F 0 "H2" V 18554 8250 50  0000 L CNN
+F 1 "MountingHole_Pad" V 18645 8250 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 18600 8100 50  0001 C CNN
+F 3 "" H 18600 8100 50  0001 C CNN
+	1    18600 8100
+	0    1    1    0   
+$EndComp
+$Comp
+L keyboard-rescue:MountingHole_Pad-Mechanical H3
+U 1 1 63862760
+P 18600 8300
+F 0 "H3" V 18554 8450 50  0000 L CNN
+F 1 "MountingHole_Pad" V 18645 8450 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 18600 8300 50  0001 C CNN
+F 3 "" H 18600 8300 50  0001 C CNN
+	1    18600 8300
+	0    1    1    0   
+$EndComp
+$Comp
+L keyboard-rescue:MountingHole_Pad-Mechanical H5
+U 1 1 63862ABB
+P 18600 8700
+F 0 "H5" V 18554 8850 50  0000 L CNN
+F 1 "MountingHole_Pad" V 18645 8850 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 18600 8700 50  0001 C CNN
+F 3 "" H 18600 8700 50  0001 C CNN
+	1    18600 8700
+	0    1    1    0   
+$EndComp
+$Comp
+L keyboard-rescue:MountingHole_Pad-Mechanical H6
+U 1 1 63862DDD
+P 18600 8900
+F 0 "H6" V 18554 9050 50  0000 L CNN
+F 1 "MountingHole_Pad" V 18645 9050 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 18600 8900 50  0001 C CNN
+F 3 "" H 18600 8900 50  0001 C CNN
+	1    18600 8900
+	0    1    1    0   
+$EndComp
+$Comp
+L keyboard-rescue:GND-power #PWR0116
+U 1 1 6393D67D
+P 18350 8400
+F 0 "#PWR0116" H 18350 8150 50  0001 C CNN
+F 1 "GND" V 18355 8272 50  0000 R CNN
+F 2 "" H 18350 8400 50  0001 C CNN
+F 3 "" H 18350 8400 50  0001 C CNN
+	1    18350 8400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	18350 8400 18500 8400
+Wire Wire Line
+	18500 8400 18500 8300
+Wire Wire Line
+	18500 8300 18500 8100
+Connection ~ 18500 8300
+Wire Wire Line
+	18500 7900 18500 8100
+Connection ~ 18500 8100
+Connection ~ 18500 8400
+Wire Wire Line
+	18500 8400 18500 8500
+Connection ~ 18500 8500
+Wire Wire Line
+	18500 8500 18500 8700
+Connection ~ 18500 8700
+Wire Wire Line
+	18500 8700 18500 8900
+$EndSCHEMATC
